@@ -3,9 +3,5 @@
   
   <h1>Ressources Women on Rails</h1>
 
----
-
  Ensemble de ressources pour recherche d'emploi, préparation d'entretiens, formations, veille...
-
----
 </div>
