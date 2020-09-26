@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'Women On Rails', // Title for your website.
-  tagline: 'Ressources',
+  tagline: 'Womanual',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -67,7 +67,7 @@ const siteConfig = {
         },
         docs: {
           // Sidebars file relative to website dir.
-          sidebarPath: require.resolve('./sidebars.json'),
+          sidebarPath: require.resolve('./sidebars.js'),
         },
       },
     ],
@@ -81,7 +81,7 @@ const siteConfig = {
         src: 'img/favicon.ico',
       },
       items: [
-        {to: 'docs/doc1', label: 'Ressources', position: 'left'},
+        {to: 'docs', label: 'Ressources', position: 'left'},
         {to: 'help', label: 'À propos', position: 'left'},
         {
           href: 'https://www.meetup.com/fr-FR/Women-On-Rails/',
@@ -120,7 +120,7 @@ const siteConfig = {
       copyright: `Copyright © ${new Date().getFullYear()} Women On Rails`, // You can also put own HTML here.
     },
     // Equivalent to `docsSideNavCollapsible`.
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     // ...
   },
 };

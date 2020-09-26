@@ -19,7 +19,7 @@ const MyPage = () => {
           </div>
           <div>
             <Link
-              to={useBaseUrl('/docs/get-started')}
+              to={useBaseUrl('/docs')}
               className="button button--lg button--outline button--primary">
               Commencer
             </Link>
