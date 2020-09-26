@@ -21,18 +21,20 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
+      content: `Ce site rassemble des [ressources pour t'aider tout au long de ta carrière](${docUrl(
         'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      )}).`,
+      title: 'Consulter les ressources',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: `On se retrouve [en ligne](https://www.meetup.com/fr-FR/Women-On-Rails/) une fois par mois, ` +
+      "pour coder, partager nos expériences dans la tech ou s'entraider sur nos projets.",
+      title: 'Rejoindre notre meet-up',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: `Sur [notre compte twitter](https://twitter.com/womenonrails), on partage des infos sur Ruby et Rails, ` +
+      "des comptes de femmes qui codent, des offres d'emplois...",
+      title: 'Nous suivre sur Twitter',
     },
   ];
 
@@ -41,9 +43,9 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>Qui sommes-nous ?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>Women On Rails est un groupe féministe, LGBT-friendly et à majorité féminine qui a pour but de découvrir, s’entraider et pratiquer régulièrement les rudiments informatiques et particulièrement le langage Ruby et son framework Rails.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

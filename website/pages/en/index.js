@@ -29,12 +29,6 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = (props) => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
     const ProjectTitle = (props) => (
       <h2 className="projectTitle">
         {props.title}
@@ -60,13 +54,10 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('doc1.html')}>Commencer</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -96,8 +87,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Features</h2>
+        <MarkdownBlock></MarkdownBlock>
       </div>
     );
 
@@ -106,12 +97,12 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Pour progresser en Ruby et son framework Rails, ' +
+              "préparer tes entretiens d'embauche " +
+              'et rejoindre une communauté bienveillante et coder ensemble',
+            image: `${baseUrl}img/undraw_team.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: "Un site pour t'aider à toutes les étapes de ta carrière",
           },
         ]}
       </Block>
@@ -164,6 +155,12 @@ class Index extends React.Component {
       </Block>
     );
 
+    const Logo = (props) => (
+      <div className="projectLogo">
+        <img src={props.img_src} alt="Project Logo" />
+      </div>
+    );
+
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -198,12 +195,8 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
+          <Logo img_src={`${baseUrl}img/undraw_team.svg`} />
           <TryOut />
-          <Description />
-          <Showcase />
         </div>
       </div>
     );
