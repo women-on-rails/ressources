@@ -95,7 +95,8 @@ const siteConfig = {
         {to: 'docs', label: 'Ressources', position: 'right'},
         {
           href: 'https://github.com/women-on-rails/ressources',
-          label: 'Github',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
           position: 'right',
         },
       ],
