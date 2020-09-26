@@ -32,3 +32,7 @@
   --ifm-color-primary-lightest: #23c7b5;
 }
 
+.h-100 {
+  height: 100vh;
+}
+
