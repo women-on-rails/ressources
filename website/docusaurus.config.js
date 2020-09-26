@@ -81,16 +81,21 @@ const siteConfig = {
         src: 'img/favicon.ico',
       },
       items: [
-        {to: 'docs', label: 'Ressources', position: 'left'},
         {to: 'help', label: 'À propos', position: 'left'},
         {
           href: 'https://www.meetup.com/fr-FR/Women-On-Rails/',
           label: 'Meet-up',
-          position: 'right',
+          position: 'left',
         },
         {
           href: 'https://twitter.com/womenonrails',
           label: 'Twitter',
+          position: 'left',
+        },
+        {to: 'docs', label: 'Ressources', position: 'right'},
+        {
+          href: 'https://github.com/women-on-rails/ressources',
+          label: 'Github',
           position: 'right',
         },
       ],
