@@ -1,7 +1,5 @@
 'use strict';
 
-var set = require('set-getter');
-
 /**
  * Cache results of the first function call to ensure only calling once.
  *
@@ -18,42 +16,38 @@ var set = require('set-getter');
  * @api public
  */
 
-function lazyCache(requireFn) {
+function lazyCache(fn) {
   var cache = {};
+  var proxy = function(mod, name) {
+    name = name || camelcase(mod);
 
-  return function proxy(name, alias) {
-    var key = alias;
-
-    // camel-case the module `name` if `alias` is not defined
-    if (typeof key !== 'string') {
-      key = camelcase(name);
+    // check both boolean and string in case `process.env` cases to string
+    if (process.env.UNLAZY === 'true' || process.env.UNLAZY === true || process.env.TRAVIS) {
+      cache[name] = fn(mod);
     }
 
-    // create a getter to lazily invoke the module the first time it's called
+    Object.defineProperty(proxy, name, {
+      enumerable: true,
+      configurable: true,
+      get: getter
+    });
+
     function getter() {
-      return cache[key] || (cache[key] = requireFn(name));
+      if (cache.hasOwnProperty(name)) {
+        return cache[name];
+      }
+      return (cache[name] = fn(mod));
     }
-
-    // trip the getter if `process.env.UNLAZY` is defined
-    if (unlazy(process.env)) {
-      getter();
-    }
-
-    set(proxy, key, getter);
     return getter;
   };
+  return proxy;
 }
 
 /**
- * Return true if `process.env.LAZY` is true, or travis is running.
- */
-
-function unlazy(env) {
-  return env.UNLAZY === 'true' || env.UNLAZY === true || env.TRAVIS;
-}
-
-/**
- * Camelcase the the given module `name`.
+ * Used to camelcase the name to be stored on the `lazy` object.
+ *
+ * @param  {String} `str` String containing `_`, `.`, `-` or whitespace that will be camelcased.
+ * @return {String} camelcased string.
  */
 
 function camelcase(str) {
