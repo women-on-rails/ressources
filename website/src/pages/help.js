@@ -16,8 +16,27 @@ const MyPage = () => {
           <div className="padding-vert--md">
             <h1 className="hero__title">Qui sommes-nous ?</h1>
             <p className="hero__subtitle">Women On Rails est un groupe féministe, LGBT-friendly et à majorité féminine qui a pour but de découvrir, s’entraider et pratiquer régulièrement les rudiments informatiques et particulièrement le langage Ruby et son framework Rails.</p>
-          </div>
-          <div>
+            <br/>
+            <p>
+              <span>On se retrouve </span>
+              <a
+                href="https://www.meetup.com/fr-FR/Women-On-Rails/"
+                target="_blank"
+                rel="noreferrer noopener">
+                en ligne 
+              </a>
+              <span> pour coder, partager nos expériences dans la tech ou s'entraider sur nos projets.</span>
+            </p>
+            <p>
+              <span>Sur notre </span>
+              <a
+                href="https://twitter.com/womenonrails"
+                target="_blank"
+                rel="noreferrer noopener">
+                compte Twitter
+              </a>
+              <span>  on partage des infos sur Ruby et Rails, des comptes de femmes qui codent, des offres d'emplois...</span>
+            </p>
           </div>
         </div>
       </div>
