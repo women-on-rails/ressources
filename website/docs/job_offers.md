@@ -2,7 +2,6 @@
 id: job-offers
 title: Les offres d'emploi
 slug: /les-offres-d-emplois
-sidebar_label: Les offres d'emploi
 ---
 
 ## Par sites web

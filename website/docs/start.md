@@ -2,7 +2,6 @@
 id: start
 title: Pour commencer
 slug: / 
-sidebar_label: Pour commencer
 ---
 
 ## Petite présentation du site
