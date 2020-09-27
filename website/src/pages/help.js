@@ -11,7 +11,7 @@ const MyPage = () => {
       permalink="/"
       title={siteConfig.title}
       description={siteConfig.tagline}>
-      <div className="hero text--center">
+      <div className="hero h-100 text--center">
         <div className="container ">
           <div className="padding-vert--md">
             <h1 className="hero__title">Qui sommes-nous ?</h1>
