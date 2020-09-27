@@ -106,24 +106,8 @@ const siteConfig = {
       postsPerPage: 10,
     },
 
-    docs: {
-      // Equivalent to `customDocsPath`.
-      path: 'docs',
-      // Equivalent to `editUrl` but should point to `website` dir instead of `website/docs`.
-      editUrl: 'https://github.com/facebook/docusaurus/edit/master/website',
-      // Equivalent to `docsUrl`.
-      routeBasePath: 'docs',
-      // Remark and Rehype plugins passed to MDX. Replaces `markdownOptions` and `markdownPlugins`.
-      remarkPlugins: [],
-      rehypePlugins: [],
-      // Equivalent to `enableUpdateBy`.
-      showLastUpdateAuthor: true,
-      // Equivalent to `enableUpdateTime`.
-      showLastUpdateTime: true,
-    },
-
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} Women On Rails`, // You can also put own HTML here.
+      copyright: `Copyright © ${new Date().getFullYear()} Women On Rails. Réalisé avec Docusaurus.`, // You can also put own HTML here.
     },
     // Equivalent to `docsSideNavCollapsible`.
     sidebarCollapsible: true,
