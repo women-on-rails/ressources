@@ -68,6 +68,13 @@ const siteConfig = {
         docs: {
           // Sidebars file relative to website dir.
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs',
+          editUrl: 'https://github.com/women-on-rails/ressources/edit/master/website/',
+          routeBasePath: 'docs',
+          remarkPlugins: [],
+          rehypePlugins: [],
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
       },
     ],
