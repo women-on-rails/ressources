@@ -14,4 +14,4 @@
 
 ## Reste à faire
 - Une catégorie **Apprendre** pour renseigner sur: pourquoi apprendre à coder / comment se former
-- Dans la catégorie **Trouver un job**, les pages suivantes: Candidater (rédiger un CV / une lettre de motivation); Le processus d'embauche (les différents types d'entretien: technique / de personnalité)
+- Dans la catégorie **Trouver un job**, les pages suivantes: Candidater (rédiger un CV / une lettre de motivation); Le processus d'embauche (les différents types d'entretien: technique / de personnalité); Après l'entretien
