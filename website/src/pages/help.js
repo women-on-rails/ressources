@@ -21,7 +21,7 @@ const MyPage = () => {
               <div class="col col--2"></div>
               <div class="col col--4">
                 <p>
-                  <span>On se retrouve </span>
+                  <span>On se retrouve régulièrement </span>
                   <a
                     href="https://www.meetup.com/fr-FR/Women-On-Rails/"
                     target="_blank"
