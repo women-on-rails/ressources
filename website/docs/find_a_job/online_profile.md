@@ -13,7 +13,7 @@ Si tu as du code sur ton GitHub, tu peux choisir ce que tu veux mettre en avant 
 
 ### Page profil
 Pour te distinguer auprès d'un.e recruteu.r.se ou de ta futur équipe tech, tu peux aussi créer une page GitHub de [présentation de ton profil](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
-- [Awesome Profile README templates](https://github.com/kautukkundan/Awesome-Profile-README-templates): En fouillant ce repo, tu trouveras de nombreux exemples de pages profils par catégorie pour vous inspirer.
+- [Awesome Profile README templates](https://github.com/kautukkundan/Awesome-Profile-README-templates): En fouillant ce repo, tu trouveras de nombreux exemples de pages profils par catégorie pour t'inspirer.
 - [Awesome Github Profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme): Une autre liste de profils inspirants.
 - [GitHub Profile Readme Generator](https://arturssmirnovs.github.io/github-profile-readme-generator/): En répondant à quelques questions, cela permet de générer le code nécessaire à ta page profil.
 
