@@ -20,7 +20,7 @@ Si tu n'as jamais fait de Pull Requests, on te conseille de commencer par le dos
 
 ## Hacktoberfest
 HacktoberFest est un événement organisé chaque année en octobre par Digital Ocean pour encourager la participation à l'Open Source. Concrètement, tu t'inscris sur [le site dédié de l'événement](https://hacktoberfest.digitalocean.com/) et tu as un mois pour réaliser 5 Pull Requests.<br/>
-Tu reçois quelque temps après gratuitement un t-shirt (stylé) et des autocollants. Depuis 2020 pour la première fois il y a aussi une option écologique: tu peux choisir à la place de recevoir un t-shirt de faire planter un arbre.
+Tu reçois quelque temps après gratuitement un t-shirt (stylé) et des autocollants. Depuis 2020 pour la première fois il y a aussi une option écologique: tu peux choisir à la place de recevoir un t-shirt de faire planter un arbre.<br/>
 
-<br/></br>
+
 Ressources pour cette page: [Set Yourself Up For Success During Hacktoberfest de Monica Powell](https://www.aboutmonica.com/blog/set-yourself-up-for-success-open-source-contributions), [First timers only](https://www.firsttimersonly.com/)

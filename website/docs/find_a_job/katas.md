@@ -25,7 +25,6 @@ On en croise de plusieurs types:
 ## Algorithmie
 Pour finir, des sites plus généralistes en algorithmie, pas centrés sur un langage en particulier et qui recensent des questions qui peuvent tomber.<br/>
 - Le site [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction) référence de nombreux sujets d'algorithmie avec des questions qui peuvent tomber sur ces sujets.
-- [Algo Deck](https://github.com/teivah/algodeck): ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie.
+- [Algo Deck](https://github.com/teivah/algodeck): ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie.<br/>
 
-<br/></br>
-Ressource pour cette page: [Catalin Pit, The Best Coding Challenges Websites For Beginners](https://daily.dev/posts/the-best-coding-challenges-websites-for-beginners)
+Ressource pour cette page: [The Best Coding Challenges Websites For Beginners de Catalin Pit](https://daily.dev/posts/the-best-coding-challenges-websites-for-beginners)
