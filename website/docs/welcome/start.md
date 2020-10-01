@@ -13,9 +13,3 @@ Ce site est pensé comme une boîte à outils thématique et il n'est pas à lir
 
 ## C'est pour qui ?
 Ce site est accessessible à tou.te.s, pour aider les développeur.se.s en Ruby on Rails tout au long de leur carrière, que tu viennes juste de finir ta formation ou que tu cherches à évoluer.
-
-## Comment participer ?
-Si une ressource manque ou n'est pas assez précise, tu peux cliquer sur le lien "Edit this page" en bas de l'article et faire une Pull Request pour la modifier.<br/>
-Tu peux aussi nous contacter par mail à l'adresse ci-dessous:<br/>
-![](../static/img/email.png)
-
