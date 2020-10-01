@@ -1,12 +1,12 @@
 ---
 id: interview-types
-title: Les types d'entretien
-slug: /les-types-d-entretien
+title: Les types de tests techniques
+slug: /les-types-de-tests-techniques
 ---
 
 Lorsqu'on candidate à une offre, les entreprises font passer des tests techniques, qui peuvent être de différents formes.<br/>
-**Pour l'entreprise**, les tests techniques sont un moyen d'évaluer tes compétences, ta manière de raisonner et de résoudre un problème, mais pas seulement. Ils peuvent être aussi un moyen de voir comment tu réagis à des retours sur ton code, si tu sais rebondir quand on te fait une remarque ou une suggestion.<br/>
-**Pour toi**, si tu rencontres des développeur.se.s pendant ces entretiens, c'est un moyen de voir si tu peux te projeter dans l'équipe. Tu auras souvent des retours précis sur comment s'est passé l'entretien et ce qui n'allait ou pas: autant de conseils pour progresser pour le test suivant si un ne marche pas. 
+**=> Pour l'entreprise**, les tests techniques sont un moyen d'évaluer tes compétences, ta manière de raisonner et de résoudre un problème, mais pas seulement. Ils peuvent être aussi un moyen de voir comment tu réagis à des retours sur ton code, si tu sais rebondir quand on te fait une remarque ou une suggestion.<br/>
+**=> Pour toi**, si tu rencontres des développeur.se.s pendant ces entretiens, c'est un moyen de voir si tu peux te projeter dans l'équipe. Tu auras souvent des retours précis sur comment s'est passé l'entretien et ce qui n'allait ou pas: autant de conseils pour progresser pour le test suivant si un ne marche pas. 
 
 ## Test technique à faire chez soi
 Les tests techniques passés chez soi sont généralement plus longs et sont un moyen de tester tes compétences de manière approfondie.<br/>

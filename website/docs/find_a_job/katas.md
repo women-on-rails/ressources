@@ -1,20 +1,19 @@
 ---
 id: katas
-title: S'entraîner aux tests techniques
-slug: /challenges-techniques
+title: S'entraîner aux tests
+slug: /s-entrainer-aux-tests
 ---
 
 ## Katas
 
 Les katas sont des exercices techniques, de différents niveaux, en pur Ruby.<br/>
-Les entreprises peuvent en faire passer comme entretien pour tester:
-- ta connaissance en Ruby
-- tes capacités en algorithmie
+Les entreprises peuvent en faire passer comme entretien pour tester ta connaissance en Ruby et tes compétences en algorithmie
 
 Heureusement de nombreux sites permettent de s'entraîner !<br/>
-[codewars](https://www.codewars.com/): sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition.<br/>
-[exercism](https://exercism.io/): près de 100 exercices en Ruby, par niveaux et avec des thématiques (hash, math, boucle...)<br/>
-[Paris Ruby Workshop](http://www.parisrubyworkshop.org/): Recensement d'exercices en ruby par niveau (débutant.e, intermédiaire, expert.e)
+- [codewars](https://www.codewars.com/): sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition. Chaque kata a un espace de discussion où tu peux commenter, aider ou être aidé.e.<br/>
+- [exercism](https://exercism.io/): Très bien pour les débutant.e.s car les exercices sont relus par des mentors. Il y a près de 100 exercices en Ruby, par niveaux et avec des thématiques (hash, math, boucle...)<br/>
+- [coderbyte](https://coderbyte.com/): Des [exercices d'algorithmie](https://coderbyte.com/interview-kit/algorithms) que tu peux faire en ruby. Tu peux aussi voir les réponses aux exercices d'autres développeur.se.s et apprendre en comparant. Pour les débutant.e.s, les exercices sont vraiment faciles (contrairement à codewars) donc tu peux prendre confiance progressivement.<br/>
+- [Paris Ruby Workshop](http://www.parisrubyworkshop.org/): Recensement d'exercices en ruby par niveau (débutant.e, intermédiaire, expert.e)
 
 
 ## Tests techniques d'entreprises
@@ -24,6 +23,6 @@ On en croise de plusieurs types:
 - soit qui vont plutôt faire faire des exercices rappelant leur besoin métier: [Aircall](https://github.com/aircall/backend-test-5), [HostnFly](https://github.com/hostnfly/jobs),  [My Mentor](https://github.com/my-mentor/jobs), [Trustpair](https://github.com/trustpair/jobs/tree/master/ruby/),
 
 ## Algorithmie
-Pour finir, des sites plus généralistes en algorithmie, pas centrés sur un langage en particulier.<br/>
-Le site [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction) référence de nombreux sujets d'algorithmie avec des questions qui peuvent tomber sur ces sujets.
-[Algo Deck](https://github.com/teivah/algodeck): ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie.
+Pour finir, des sites plus généralistes en algorithmie, pas centrés sur un langage en particulier et qui recensent des questions qui peuvent tomber.<br/>
+- Le site [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction) référence de nombreux sujets d'algorithmie avec des questions qui peuvent tomber sur ces sujets.
+- [Algo Deck](https://github.com/teivah/algodeck): ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie.
