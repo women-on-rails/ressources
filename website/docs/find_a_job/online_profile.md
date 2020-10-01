@@ -12,7 +12,7 @@ En tant que développeur.se.s, montrer ce qu'on sait faire en ligne est importan
 Si tu as du code sur ton GitHub, tu peux choisir ce que tu veux mettre en avant ou non en [archivant certains projets](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/archiving-repositories).
 
 ### Page profil
-Pour te distinguer auprès d'un.e recruteu.r.se ou de ta futur équipe tech, tu peux aussi créer une page GitHub de [présentation de ton profil](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).<br/>
+Pour te distinguer auprès d'un.e recruteu.r.se ou de ta futur équipe tech, tu peux aussi [créer une page GitHub de présentation de ton profil](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).<br/>
 Pour t'inspirer, il y a différents dossiers en ligne qui référencent des profils: [Awesome Profile README templates](https://github.com/kautukkundan/Awesome-Profile-README-templates), [Awesome Github Profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme).<br/>
 Il y a même des générateurs où en remplissant un formulaire ça te crée le code nécessaire à ton profil: [un générateur simple](https://arturssmirnovs.github.io/github-profile-readme-generator/) et un [plus complet](https://rahuldkjain.github.io/gh-profile-readme-generator/).
 
