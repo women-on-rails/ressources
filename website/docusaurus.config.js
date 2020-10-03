@@ -63,11 +63,11 @@ const siteConfig = {
       '@docusaurus/preset-classic',
       {
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/assets/css/custom.css'),
         },
         docs: {
           // Sidebars file relative to website dir.
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./src/sidebars.js'),
           path: 'docs',
           editUrl: 'https://github.com/women-on-rails/ressources/edit/master/website/',
           routeBasePath: 'docs',
@@ -85,7 +85,7 @@ const siteConfig = {
       title: 'Women On Rails',
       logo: {
         alt: 'Women On Rails Logo',
-        src: 'img/favicon.ico',
+        src: 'src/assets/img/favicon.ico',
       },
       items: [
         {to: 'help', label: 'À propos', position: 'left'},
@@ -99,6 +99,7 @@ const siteConfig = {
           label: 'Twitter',
           position: 'left',
         },
+        {to: 'blog', label: 'Blog', position: 'right'},
         {to: 'docs', label: 'Ressources', position: 'right'},
         {
           href: 'https://github.com/women-on-rails/ressources',

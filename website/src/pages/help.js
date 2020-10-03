@@ -19,7 +19,7 @@ const MyPage = () => {
             <br/>
             <div class="row">
               <div class="col col--4">
-                <img src="../../static/img/meetup.png" class="social-logo"></img>
+                <img src="../../src/assets/img/meetup.png" class="social-logo"></img>
                 <p>
                   <span>On se retrouve régulièrement </span>
                   <a
@@ -32,7 +32,7 @@ const MyPage = () => {
                 </p>
               </div>
               <div class="col col--4">
-                <img src="../../static/img/twitter.png" class="social-logo"></img>
+                <img src="../../src/assets/img/twitter.png" class="social-logo"></img>
                 <p>
                   <span>Sur notre </span>
                   <a
@@ -45,10 +45,10 @@ const MyPage = () => {
                 </p>
               </div>
               <div class="col col--4">
-                <img src="../../static/img/slack.png" class="social-logo"></img>
+                <img src="../../src/assets/img/slack.png" class="social-logo"></img>
                 <p>
                   <span>On a un Slack aussi, envoie-nous un mail pour qu'on puisse t'ajouter.</span>
-                  <img src="../../static/img/email.png"></img>
+                  <img src="../../src/assets/img/email.png"></img>
                 </p>
               </div>
             </div>
