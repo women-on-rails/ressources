@@ -217,7 +217,8 @@ Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincu
 
 # Comment soumettre ton code
 
-Après avoir installé ce repo, tu peux créer une branche, faire une modification, pousser ton code et soumettre une Pull Request.
+Tu peux installer ce repo, créer une branche, faire une modification, pousser ton code et soumettre une Pull Request (PR).<br/>
+En naviguant sur le site, tu peux cliquer sur le lien "Edit this page" des pages docs pour réaliser une PR.
 
 # Pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 
