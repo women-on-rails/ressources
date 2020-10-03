@@ -23,10 +23,10 @@
     - le processus d'embauche (le déroulé du process: appel / test technique / retours, ce qu'attend les recruteurs d'un entretien / test)
     - les questions à poser lors du recrutement
     - après l'entretien (comment remercier / relancer)
-   - ajouter sur la page "Questions / Réponses" directement des questions en Ruby, Rails, SQL, Active Records
+   - ajouter sur la page "Questions techniques" directement des questions en Ruby, Rails, SQL, Active Records, par niveau
 - Dans la catégorie **Pratiquer**:
   - rajouter une présentation de l'open source / petite historique sur la page concernée
-  - rajouter dans la page projets persos des exemples de projet sous RoR
+  - rajouter dans la page projets persos des exemples de projets sous RoR
 - Dans la catégorie **S'informer** ajouter la page suivante:
   - vidéos et podcasts
   
