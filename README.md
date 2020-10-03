@@ -6,7 +6,7 @@
 ---
 
  Ensemble de ressources pour recherche d'emploi, préparation d'entretiens, formations, veille...<br>
- Dernière mise à jour: septembre 2020
+ Dernière mise à jour: octobre 2020
  
 ---
 </div>
