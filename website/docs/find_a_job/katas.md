@@ -6,7 +6,7 @@ slug: /s-entrainer-aux-tests
 
 ## Katas
 
-Les katas sont des exercices techniques, de différents niveaux, en pur Ruby.<br/>
+Les katas sont des exercices techniques, de différents niveaux, qui peuvent ête faits en différents langages.<br/>
 Les entreprises peuvent en faire passer comme entretien pour tester ta connaissance en Ruby et tes compétences en algorithmie
 
 Heureusement de nombreux sites permettent de s'entraîner !<br/>
@@ -22,9 +22,11 @@ On en croise de plusieurs types:
 -  soit avec différents "paliers", plus tu avances et plus c'est complexe, comme pour: [Deliver-ee](https://github.com/deliver-ee/challenges), [Drivy](https://github.com/drivy/jobs/tree/master/backend), [Lifen](https://github.com/honestica/backend-jobs)
 - soit qui vont plutôt faire faire des exercices rappelant leur besoin métier: [Aircall](https://github.com/aircall/backend-test-5), [HostnFly](https://github.com/hostnfly/jobs),  [My Mentor](https://github.com/my-mentor/jobs), [Trustpair](https://github.com/trustpair/jobs/tree/master/ruby/),
 
-## Algorithmie
+## Pour aller plus loin
 Pour finir, des sites plus généralistes en algorithmie, pas centrés sur un langage en particulier et qui recensent des questions qui peuvent tomber.<br/>
-- Le site [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction) référence de nombreux sujets d'algorithmie avec des questions qui peuvent tomber sur ces sujets.
-- [Algo Deck](https://github.com/teivah/algodeck): ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie.<br/>
+- Le site [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction) référence de nombreux sujets d'algorithmie et liste des questions qui peuvent tomber sur chaque sujet.
+- [Algo Deck](https://github.com/teivah/algodeck): ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie.
+
+Sur le dossier en ligne [CodingInterviews](https://github.com/jayshah19949596/CodingInterviews) tu trouveras des questions techniques posées dans des entreprises telles que VISA, Coursera, Apple...
 
 Ressource pour cette page: [The Best Coding Challenges Websites For Beginners de Catalin Pit](https://daily.dev/posts/the-best-coding-challenges-websites-for-beginners)
