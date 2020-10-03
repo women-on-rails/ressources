@@ -12,7 +12,7 @@
 </div>
 
 
-## Pages restant à écrire
+## Pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 
   - pourquoi apprendre à coder
   - pourquoi choisir Ruby on Rails
