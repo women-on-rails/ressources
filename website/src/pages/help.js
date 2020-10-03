@@ -18,8 +18,8 @@ const MyPage = () => {
             <p className="hero__subtitle">Women On Rails est un groupe féministe, LGBT-friendly et à majorité féminine qui a pour but de découvrir, s’entraider et pratiquer régulièrement les rudiments informatiques et particulièrement le langage Ruby et son framework Rails.</p>
             <br/>
             <div class="row">
-              <div class="col col--2"></div>
               <div class="col col--4">
+                <img src="../../static/img/meetup.png" class="social-logo"></img>
                 <p>
                   <span>On se retrouve régulièrement </span>
                   <a
@@ -32,6 +32,7 @@ const MyPage = () => {
                 </p>
               </div>
               <div class="col col--4">
+                <img src="../../static/img/twitter.png" class="social-logo"></img>
                 <p>
                   <span>Sur notre </span>
                   <a
@@ -41,6 +42,13 @@ const MyPage = () => {
                     compte Twitter
                   </a>
                   <span>  on partage des infos sur Ruby et Rails, des comptes de femmes qui codent, des offres d'emplois...</span>
+                </p>
+              </div>
+              <div class="col col--4">
+                <img src="../../static/img/slack.png" class="social-logo"></img>
+                <p>
+                  <span>On a un Slack aussi, envoie-nous un mail pour qu'on puisse t'ajouter.</span>
+                  <img src="../../static/img/email.png"></img>
                 </p>
               </div>
             </div>
