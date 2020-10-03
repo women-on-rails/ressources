@@ -13,5 +13,20 @@
 
 
 ## Reste à faire
-- Une catégorie **Apprendre** pour renseigner sur: pourquoi apprendre à coder / comment se former
-- Dans la catégorie **Trouver un job**, les pages suivantes: Candidater (rédiger un CV / une lettre de motivation); Le processus d'embauche (les différents types d'entretien: technique / de personnalité); Après l'entretien
+- Ajouter une catégorie **Apprendre** avec les pages: 
+  - pourquoi apprendre à coder
+  - pourquoi choisir Ruby on Rails
+  - comment se former (sites, formation...)
+- Dans la catégorie **Trouver un job**
+  - ajouter les pages suivantes:
+    - candidater (rédiger un CV / une lettre de motivation)
+    - le processus d'embauche (le déroulé du process: appel / test technique / retours, ce qu'attend les recruteurs d'un entretien / test)
+    - les questions à poser lors du recrutement
+    - après l'entretien (comment remercier / relancer)
+   - ajouter sur la page "Questions / Réponses" directement des questions en Ruby, Rails, SQL, Active Records
+- Dans la catégorie **Pratiquer**:
+  - rajouter une présentation de l'open source / petite historique sur la page concernée
+  - rajouter dans la page projets persos des exemples de projet sous RoR
+- Dans la catégorie **S'informer** ajouter la page suivante:
+  - vidéos et podcasts
+  
