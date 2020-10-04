@@ -7,7 +7,7 @@ slug: /comment-contribuer
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Ce site est participatif, tu peux:
-  - nous dire ce que tu aimerais y voir :)
+  - nous dire ce que tu aimerais y voir ;)
   - modifier ou ajouter une ressource (on a une [liste d'idées de pages à écrire](https://github.com/women-on-rails/ressources/blob/master/README.md#id%C3%A9es-de-pages-%C3%A0-%C3%A9crire))
   - écrire un article pour le blog
 
