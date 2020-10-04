@@ -235,5 +235,3 @@ En naviguant sur le site, tu peux cliquer sur le lien "Edit this page" des pages
 - Dans la catégorie **Pratiquer**:
   - rajouter une présentation de l'open source / petite historique sur la page concernée
   - rajouter dans la page projets persos des exemples de projets sous RoR
-- Dans la catégorie **S'informer** ajouter la page suivante:
-  - vidéos et podcasts
