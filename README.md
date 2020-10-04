@@ -13,7 +13,7 @@
   Dernière mise à jour: octobre 2020<br/>
   Créé en utilisant [Docusaurus](https://docusaurus.io/).<br/>
   
-  https://women-on-rails.github.io/ressources/docs
+  https://women-on-rails.github.io/ressources/
 
   ---
 </div><br/><br/>
