@@ -247,15 +247,15 @@ En local: cloner le repo, faire une branche avec tes changements, pusher et soum
 - Dans la catégorie **Rejoindre la communauté**:
   - Faire une page "Transmettre" avec: Écrire des articles (medium, dev.io); Rejoindre des réseaux solidaires (social builder); Participer à un talk (comment se préparer) => Tout ça peut éventuellement être une catégorie en soi
 - Ajouter une catégorie **Visualuser l'écosystème RoR**:
-  - Trombinoscope avec profils twitter (DHH, Matz)
-  - Recenser les entreprises qui codent en RoR par localisation avec un lien vers une de leur page présentant leur tech, leur équipe...
+  - Trombinoscope avec profils twitter (DHH, Matz...)
+  - Recenser les entreprises qui codent en RoR par localisation avec des liens vers leurs pages présentant leur tech, leur équipe...
 - Ajouter une catégorie **S'inspirer**:
   - Page "Portraits de développeuses"
 - Ajouter une catégorie **Au-delà de RoR**:
   - Page "Les petits plus en entreprise" avec des ressources pour: command line, git, regex, sql, css / html, bootstrap, vanilla JS, comment se débugguer
-  - Front-Ebd
-  - Design
-  - Computer Science
+  - Ressources Front-End
+  - Resources Design
+  - Ressources Computer Science
 - Ajouter une catégorie **Lexique** ?
   - Page  "Termes techniques du site" ?
   - Page "Jargon start-up" ?
