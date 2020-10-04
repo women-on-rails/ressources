@@ -22,7 +22,7 @@ const siteConfig = {
       '@docusaurus/preset-classic',
       {
         theme: {
-          customCss: require.resolve('./src/assets/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css'),
         },
         docs: {
           // Sidebars file relative to website dir.
