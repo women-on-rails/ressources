@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'Women On Rails',
-  tagline: 'Womanual',
+  tagline: "Pour préparer tes entretiens d'embauche, progresser en Ruby et son framework Rails et rejoindre une communauté bienveillante pour coder ensemble.",
   url: 'https://women-on-rails.github.io',
   baseUrl: '/ressources/',
   projectName: 'ressources',
