@@ -178,6 +178,14 @@ title: It's October Third
 Lorem Ipsum...
 ```
 
+L'aperçu de l'article doit se situer au-dessus de la ligne `truncate`
+
+```markdown
+// Haut de l'article
+  <!--truncate-->
+// Suite de l'article
+```
+
 [Pour plus d'information sur comment ajouter un article](https://docusaurus.io/docs/en/adding-blog).
 
 ## Ajouter des éléments à la barre de navigation du haut
