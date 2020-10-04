@@ -12,52 +12,11 @@ const siteConfig = {
   title: 'Women On Rails', // Title for your website.
   tagline: 'Womanual',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
-
-  // Used for publishing and more
+  baseUrl: '/',
   projectName: 'test-site',
   organizationName: 'facebook',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
-
-  /* path to images for favicon */
   favicon: 'img/favicon.ico',
-
-  /* Custom fonts for website */
-  /*
-  fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },
-  */
-
-  // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
-
-  // For sites with a sizable amount of content, set collapsible to true.
-  // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
-
-  // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
-
-  // Show documentation's last update time.
-  // enableUpdateTime: true,
-
-  // You may provide arbitrary config keys to be used as needed by your
-  // template. For example, if you need your repo's URL...
-  // repoUrl: 'https://github.com/facebook/test-site',
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -73,7 +32,6 @@ const siteConfig = {
           routeBasePath: 'docs',
           remarkPlugins: [],
           rehypePlugins: [],
-          showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
       },
@@ -115,11 +73,9 @@ const siteConfig = {
     },
 
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} Women On Rails. Réalisé avec Docusaurus.`, // You can also put own HTML here.
+      copyright: `Copyright © ${new Date().getFullYear()} Women On Rails. Réalisé avec Docusaurus.`,
     },
-    // Equivalent to `docsSideNavCollapsible`.
     sidebarCollapsible: true,
-    // ...
   },
 };
 
