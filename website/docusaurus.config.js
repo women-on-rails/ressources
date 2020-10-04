@@ -11,8 +11,8 @@
 const siteConfig = {
   title: 'Women On Rails',
   tagline: 'Womanual',
-  url: 'https://women-on-rails.github.io/',
-  baseUrl: '/',
+  url: 'https://women-on-rails.github.io',
+  baseUrl: '/resources/',
   projectName: 'resources',
   organizationName: 'women-on-rails',
   favicon: 'img/favicon.ico',
