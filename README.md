@@ -29,7 +29,7 @@
   - [Ajouter une page custom](#ajouter-une-page-custom)
 - [La documentation officielle](#la-documentation-officielle)
 - [Comment soumettre ton code](#comment-soumettre-ton-code)
-- [Pages à écrire](#pages-à-écrire)
+- [Idées de pages à écrire](#idées-de-pages-à-écrire)
 
 # Installer le site en local
 1. Vérifie que tu as [node](https://nodejs.org/en/download/) insallé et [yarn](https://classic.yarnpkg.com/fr/docs/install/#mac-stable).
@@ -220,7 +220,7 @@ Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincu
 Tu peux installer ce repo, créer une branche, faire une modification, pousser ton code et soumettre une Pull Request (PR).<br/>
 En naviguant sur le site, tu peux cliquer sur le lien "Edit this page" des pages docs pour réaliser une PR.
 
-# Pages à écrire
+# Idées de pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 
   - pourquoi apprendre à coder
   - pourquoi choisir Ruby on Rails
