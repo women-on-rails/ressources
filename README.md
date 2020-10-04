@@ -11,7 +11,9 @@
   Un site pour définir ensemble des **ressources** pour recherche d'emploi, préparation d'entretiens, formations, veille...<br>
   Un **blog** pour partager ses connaissances tech et ses retours d'expériences.</br><br/>
   Dernière mise à jour: octobre 2020<br/>
-  Créé en utilisant [Docusaurus](https://docusaurus.io/).
+  Créé en utilisant [Docusaurus](https://docusaurus.io/).<br/>
+  
+  https://women-on-rails.github.io/ressources/docs
 
   ---
 </div><br/><br/>
