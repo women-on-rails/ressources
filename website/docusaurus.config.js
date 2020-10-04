@@ -9,12 +9,12 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Women On Rails', // Title for your website.
+  title: 'Women On Rails',
   tagline: 'Womanual',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  url: 'https://women-on-rails.github.io/',
   baseUrl: '/',
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'resources',
+  organizationName: 'women-on-rails',
   favicon: 'img/favicon.ico',
   scripts: ['https://buttons.github.io/buttons.js'],
   presets: [
