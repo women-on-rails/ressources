@@ -43,7 +43,7 @@ const siteConfig = {
       title: 'Women On Rails',
       logo: {
         alt: 'Women On Rails Logo',
-        src: 'src/assets/img/favicon.ico',
+        src: 'img/favicon.ico',
       },
       items: [
         {to: 'help', label: 'À propos', position: 'left'},
