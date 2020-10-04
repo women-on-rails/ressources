@@ -226,9 +226,8 @@ Docusaurus a une [documentation très détaillée](https://v2.docusaurus.io/docs
 Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincubator.github.io/infima/docs/getting-started/introduction).
 
 # Comment soumettre ton code
-
-Tu peux installer ce repo, créer une branche, faire une modification, pousser ton code et soumettre une Pull Request (PR).<br/>
-En naviguant sur le site, tu peux cliquer sur le lien "Edit this page" des pages docs pour réaliser une PR.
+Directement en ligne: cliquer sur le lien "Edit this page" en bas d'une des pages ressources, forker le repo puis commiter ton changement et faire une Pull Request.<br/>
+En local: cloner le repo, faire une branche avec tes changements, pusher et soumettre une Pull Request.
 
 # Idées de pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 
