@@ -14,7 +14,7 @@ Si tu as du code sur ton GitHub, tu peux choisir ce que tu veux mettre en avant 
 ### Page profil
 Pour te distinguer auprès d'un.e recruteu.r.se ou de ta futur équipe tech, tu peux aussi [créer une page GitHub de présentation de ton profil](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).<br/>
 Pour t'inspirer, il y a différents dossiers en ligne qui référencent des profils: [Awesome Profile README templates](https://github.com/kautukkundan/Awesome-Profile-README-templates), [Awesome Github Profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme).<br/>
-Il y a même des générateurs où en remplissant un formulaire ça te crée le code nécessaire à ton profil: [un générateur simple](https://arturssmirnovs.github.io/github-profile-readme-generator/) et un [plus complet](https://rahuldkjain.github.io/gh-profile-readme-generator/).
+Il y a même des sites avec un formulaire qui te génèrent ensuite le code nécessaire à ton profil: [un générateur simple](https://arturssmirnovs.github.io/github-profile-readme-generator/) et un [plus complet](https://rahuldkjain.github.io/gh-profile-readme-generator/).
 
 ## Notion
 [Notion](https://www.notion.so/) est un site pour avoir son espace de travail en ligne, avec différentes mises en pages disponibles (note, calendrier)... Et certain.e.s développeur.se.s s'en sont servi.e.s pour faire une mise en page originale de leur CV ! Le site a même mis à disposition un [modèle de CV que tu peux copier](https://notionpages.com/624/resume/).<br/>
