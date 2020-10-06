@@ -4,7 +4,7 @@
     <span>Le site des ressources</span>
   </h1>
 
-  <img src="https://avatars1.githubusercontent.com/u/16294438?s=200&v=4">
+  <img src="website/static/img/favicon.ico">
   
   ---
 
@@ -226,12 +226,14 @@ Docusaurus a une [documentation très détaillée](https://v2.docusaurus.io/docs
 Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincubator.github.io/infima/docs/getting-started/introduction).
 
 # Comment soumettre ton code
-À partir du site: cliquer sur le lien "Edit this page" en bas d'une des pages ressources, forker le repo puis commiter ton changement et faire une Pull Request.<br/>
-Sur GitHub: forker le repo, faire les changements en ligne nécessaires:
+**À partir du site**: cliquer sur le lien "Edit this page" en bas d'une des pages ressources, forker le repo puis commiter ton changement et faire une Pull Request.<br/>
+**Sur GitHub**: forker le repo, faire les changements en ligne nécessaires:
 - modifier un fichier en cliquant sur le petit crayon en haut
+<img src="website/static/img/edit_file.png">
 - ajouter un fichier
+<img src="website/static/img/create_file.png">
 
-En local: forker puis cloner le repo, faire une nouvelle branche, commiter tes changements puis pusher. Revenir sur la page de ce repo et soumettre ta Pull Request.<br/>
+**En local**: forker puis cloner le repo, faire une nouvelle branche, commiter tes changements puis pusher. Revenir sur la page de ce repo et soumettre ta Pull Request.<br/>
 
 # Idées de pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 
