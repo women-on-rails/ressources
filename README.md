@@ -229,8 +229,7 @@ Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincu
 
 # Comment soumettre ton code
 Directement en ligne: cliquer sur le lien "Edit this page" en bas d'une des pages ressources, forker le repo puis commiter ton changement et faire une Pull Request.<br/>
-En local: forker puis cloner le repo, faire une branche avec tes changements, pusher. Revenir sur la page de ce repo et soumettre ta Pull Request.<br/>
-Si tu n'as jamais contribué en open-source, tu peux lire la page du site sur ce sujet: [#inception](/docs/open-source)
+En local: forker puis cloner le repo, faire une nouvelle branche, commiter tes changements puis pusher. Revenir sur la page de ce repo et soumettre ta Pull Request.<br/>
 
 # Idées de pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 
