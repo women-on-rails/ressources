@@ -36,7 +36,9 @@
 # Installer le site en local
 1. Vérifie que tu as [node](https://nodejs.org/en/download/) insallé et [yarn](https://classic.yarnpkg.com/fr/docs/install/#mac-stable).
 
-2. Clone ce repo
+2. Forke ce repo
+
+2. Clone ta version
 
 3. Installe les dépendances:
 
@@ -227,7 +229,8 @@ Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincu
 
 # Comment soumettre ton code
 Directement en ligne: cliquer sur le lien "Edit this page" en bas d'une des pages ressources, forker le repo puis commiter ton changement et faire une Pull Request.<br/>
-En local: cloner le repo, faire une branche avec tes changements, pusher et soumettre une Pull Request.
+En local: forker puis cloner le repo, faire une branche avec tes changements, pusher. Revenir sur la page de ce repo et soumettre ta Pull Request.<br/>
+Si tu n'as jamais contribué en open-source, tu peux lire la page du site sur ce sujet: [#inception](/docs/open-source)
 
 # Idées de pages à écrire
 - Ajouter une catégorie **Apprendre** avec les pages: 

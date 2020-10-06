@@ -19,6 +19,7 @@ Tu peux chercher sur GitHub par tag des issues spécialement pour débutant.e.s 
 
 <br/>Si tu es plus à l'aise:
 - [codetriage](https://www.codetriage.com/) te permet de t'abonner grâce à ton compte GitHub à des projets qui t'intéressent et t'envoient des mails régulièrement avec des issues de ces projets pour pouvoir participer. Pour l'anecdote, codetriage est fait sous Ruby on Rails.
+- [Open Source Friday](https://opensourcefriday.com/)
 - [24 Pull Requests](https://24pullrequests.com/): parce que rien n'annonce mieux Noël qu'une PR par jour ?
 
 ## Hacktoberfest
