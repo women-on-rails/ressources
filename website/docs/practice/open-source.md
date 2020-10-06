@@ -5,8 +5,9 @@ slug: /open-source
 ---
 
 ## Comment participer ?
-Si tu n'as jamais fait de Pull Requests, on te conseille de commencer par le dossier en ligne [First contributions](https://github.com/firstcontributions/first-contributions) qui te montrera comment faire !<br/>
-Sinon, on te conseille ce super site (en français !): [Comment contribuer](https://opensource.guide/fr/how-to-contribute/) qui t'expliquera les différentes façons de contribuer à un projet (on peut le faire autrement qu'en codant) ou comment sélectionner un projet auquel contribuer et comment faire sa première contribution sans faire de faux pas.
+Si tu n'as jamais codé, tu peux suivre [ces slides](https://docs.google.com/presentation/d/1V-0c28MOzez7jUuXhqzpimnAwqPLrwo8YOu6YxkA1Dc/edit?usp=sharing) pour avoir tous les outils pour contribuer en open source.<br/>
+Si tu es déjà à l'aise avec Github mais que tu n'as jamais fait de Pull Requests, on te conseille de commencer par le dossier en ligne [First contributions](https://github.com/firstcontributions/first-contributions) qui te montrera comment faire !<br/>
+Enfin, pour en savoir plus sur l'open source, tu peux te référer à ce site (en français !): [Comment contribuer](https://opensource.guide/fr/how-to-contribute/) qui t'expliquera les différentes façons de contribuer à un projet (on peut le faire autrement qu'en codant) ou comment sélectionner un projet auquel contribuer et comment faire sa première contribution sans faire de faux pas.
 
 ## Des sites référents pour trouver des projets
 Plusieurs sites te permettent de trouver des projets qui cherchent des contributeur.rice.s.<br/>
