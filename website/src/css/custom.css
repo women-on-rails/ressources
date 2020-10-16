@@ -70,4 +70,5 @@
 .avatar {
   border-radius: var(--ifm-card-border-radius);
   box-shadow: var(--ifm-global-shadow-lw);
+  background-color: var(--ifm-card-background-color);
 }
