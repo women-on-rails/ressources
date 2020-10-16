@@ -3,21 +3,21 @@ Déjà, merci de considérer de contribuer au site Ressources de Women On Rails.
 Ce fichier a pour but de t'aider à faire en sorte que ta contribution (que ce soit ta première sur un repo en open source ou pas) se passe bien, pour toi comme pour les personnes qui gèrent le site !
 
 # Ce qu'on attend comme contributions
-C'est un site de ressources, donc il y a des contributions de contenu. On a: 
+C'est un site de ressources, donc tu peux faire des contributions de contenu. On a: 
 - les pages ressources où tu peux modifier / ajouter des pages ou même des catégories
 - le blog où tu peux poster un article
 
 Mais tu peux aussi contribuer autrement :
-- sur toute la documentation du repository (le readme, ce fichier...) 
+- sur toute la documentation du repository (le readme, ce fichier, le code of conduct...) 
 - la mise en page ou le design du site
 - signaler un bug
-- rajouter des outils sur le repo (un linter pour le MarkDown, une CI, une librairie cool pour les projets open-source...)
+- rajouter des outils sur le repo (un linter pour le MarkDown, une CI, une librairie cool pour les projets open-source comme [all-contributors](https://github.com/all-contributors/all-contributors)...)
 
 # Les règles pour contribuer
 - Si tu veux ajouter une nouvelle page sur le site (autre qu'une page ressource ou blog) ou corriger un bug, commence par [créer une issue](https://github.com/women-on-rails/ressources/issues/new) pour qu'on valide ça ensemble.
 - Women On Rails suit le code of conduct de [Ruby Monstas](http://coaching.rubymonstas.org/fr/), donc en communiquant avec l'ensemble de la communauté (les personnes gérants le repo, les personnes qui contribuent) tu dois respecter ces règles.
 - Si tu contribues du contenu, il faut qu'il respecte ces règles également, sinon ta contribution sera refusée.
-- Pour ce qui est de la production de contenu sur le site ou le blog, on fait attention à ce qu'il n'y ait pas de fautes, donc on te demandera de reprendre ton texte s'il y en a.
+- Pour ce qui est de la production de contenu sur le site ou le blog, on fait attention à ce qu'il n'y ait pas de fautes, donc on te demandera de reprendre ton texte s'il y en a (en t'aidant hein).
 - Le site est ouvert à tout le monde et toute contribution respectant les règles est la bienvenue. Pour le blog, on n'accepte des articles que de femmes membres de Women On Rails, c'est un endroit réservé où faire entendre nos voix et être inspirée.
 
 # Ta première contribution
@@ -87,13 +87,22 @@ Si tu n'as jamais fait de Pull Request auparavant, tu peux [t'entraîner ici](ht
 
 ### Contribuer à partir du site
 Si tu t'es déjà baladé.e sur le site, tu as pu voir qu'en bas de chaque page ressource il y a ce lien:<br/>
-<img src="website/static/img/edit_page.png" style="height: 50px;">
+<img src="website/static/img/contributing/edit_page.png" style="height: 50px;">
 
 Si tu remarques que quelque chose ne va pas sur la page ou si tu veux y ajouter ta contribution:
 1. Clique sur le lien `Edit this page`
 2. GitHub te propose de forker le repo (c'est-à-dire copier une version du dossier sur ton compte)
-3. Modifies le fichier directement en ligne
-4. Retourne sur la page d'accueil de ce repo et fais une Pull Request
+
+<img src="website/static/img/contributing/fork_repo.png" style="height: 100px;">
+
+3. Modifie le fichier directement en ligne
+4. Commite en cliquand sur `Propose change`
+
+<img src="website/static/img/contributing/propose_change.png">
+
+5. Tu arrives sur une page qui te propose de faire ta Pull Request. Clique sur `Create Pull Request`
+
+<img src="website/static/img/contributing/create_pull_request.png">
 
 ### Contribuer à partir d'un dossier local
 Si tu préfères travailler de ton éditeur de texte, tu peux: 
@@ -115,9 +124,9 @@ Si tu es un plus aguerri.e (ou pressé.e) et que tes modifications ou ajout ne c
 5. Faire une Pull Request
 
 Modifier un fichier en cliquant sur le petit crayon en haut:
-<img src="website/static/img/edit_file.png">
+<img src="website/static/img/contributing/edit_file.png">
 Ajouter un fichier:
-<img src="website/static/img/create_file.png">
+<img src="website/static/img/contributing/create_file.png">
 
 ## Installer le site en local
 1. Vérifie que tu as [node](https://nodejs.org/en/download/) insallé et [yarn](https://classic.yarnpkg.com/fr/docs/install/#mac-stable).
@@ -137,16 +146,32 @@ $ yarn start
 Cela va t'ouvrir une page `http://localhost:3000/`
 
 ## Quel format pour ta Pull Request
+Tu peux l'écrire soit en anglais soit en français, comme tu préfères.<br/>
+Décris ce que tu as fait, si ça concerne du design, c'est bien de mettre une image avant/après.<br/>
+Voici [un exemple de pull request qui a été mergée](https://github.com/women-on-rails/ressources/pull/7).<br/>
+N'oublie pas de remplir les éléments sur le côté (`AJuliette` en reviewer, toi-même en assignee, le lien vers l'issue s'il y en a une).
+<img src="website/static/img/contributing/infos_pull_request.png" height="300">
 
 ## Comment ajouter une issue
-Tu peux contribuer aussi en signalant un bug ou en proposant une feature.
+Tu peux contribuer aussi en signalant un bug ou en proposant une feature.<br/>
+[Un exemple d'issue](https://github.com/women-on-rails/ressources/issues/2).<br/>
+Les catégories à ajouter:
+```
+## Résumé de l'issue
+
+## Situation actuelle
+
+## Situation voulue
+
+## Informations complémentaires
+```
 
 # Une présentation du repo histoire de s'y retrouver
 
 Le site est construit en utilisant [la version 2 de Docusaurus](https://v2.docusaurus.io/), qui permet de mettre facilement en ligne de la documentation.<br/>
 Il y a quelques pages en React (la page d'accueil, la page à propos), mais sinon les fichiers ressources et les pages de blog sont au format **MarkDown**, comme celui de tout README d'un repo.<br/>
-Tu peux réviser la syntaxe Markdown en [60 secondes](https://commonmark.org/help/) ou [suivre un tutorial de 10 minutes](https://commonmark.org/help/tutorial/).
-
+Tu peux réviser la syntaxe Markdown en [60 secondes](https://commonmark.org/help/) ou [suivre un tutorial de 10 minutes](https://commonmark.org/help/tutorial/).<br/>
+Il y a aussi quelques pages avec des éléments plus design où il y a du React dans du MarkDown, c'est le format [MDX](https://mdxjs.com/) (🤯) mais tu n'es pas du tout obligé.e de le connaître pour contribuer.
 
 ## Structure du dossier website
 Tu trouves dans `website/blog` les articles et dans `website/docs` les pages du site dans des sous-dossiers.<br/>
@@ -351,18 +376,18 @@ Pour le style des pages custom, Docusaurus utilise [Infima](https://facebookincu
 
 # Code review
 Pfiouuu, ça y est, tu as fais une Pull Request, [maintenant qu'est-ce qu'il va se passer ?](https://media3.giphy.com/media/NixlSwT0iyFzi/giphy.gif)<br/>
-Tu as normalement une réponse dans les 48 heures, si ce n'est pas le cas, tu peux taguer dans la Pull Request: `@AJuliette` (pour l'instant seule mainteneuse du repo !).<br/>
-Le déploiement est actuellement manuel, il est fait après chaque Pull Request mergée, donc tu verras tes changements rapidement !
+Tu as normalement une réponse dans les 48 heures, si ce n'est pas le cas, tu peux taguer dans la Pull Request: `@AJuliette` (pour l'instant je suis la seule mainteneuse du repo !).<br/>
+Le déploiement est actuellement manuel, il est fait après chaque Pull Request mergée, donc tu verras tes changements rapidement (et tu seras prévenu.e) !
 
 # Les derniers petits trucs
 
 ## Les noms de branche
-Tu peux reprendre soit le nom de l'issue que tu traites. Par exemple pour mettre à jour la doc pour l'open source j'ai une branche `prepare-repo-for-contributions`.<br/>
+Si tu traites une issue, tu peux reprendre son nom. Par exemple pour mettre à jour la doc pour l'open source j'ai une branche `prepare-repo-for-contributions`.<br/>
 Si tu ajoutes une page ou un article ça peut être: `add-page-nom-de-la-page` / `add-blog-post-nom-ou-sujet-de-l'article`.<br/>
 Même chose si tu modifies une ressource: `update-page-nom-de-la-page` / `update-blog-post-nom-ou-sujet-de-l'article`.
 
 ## Les messages de commit
-Fais comme tu as l'habitude.
+On a pas de convention particulière.
 
 ## La labelisation des issues
 - Pour les issues simples: `good first issue`.
