@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
+import DarkModeImage from '../components/dark_mode_image.js'
 
 const MyPage = () => {
   const {siteConfig} = useDocusaurusContext();
@@ -45,10 +46,10 @@ const MyPage = () => {
                 </p>
               </div>
               <div class="col col--4">
-                <img src={useBaseUrl('/img/slack.png')} class="social-logo"/>
+                <DarkModeImage imgsrcdark="/img/slack_dark.png" imgsrclight="/img/slack.png" customclass="social-logo" />
                 <p>
                   <span>On a un Slack aussi, envoie-nous un mail pour qu'on puisse t'ajouter.</span><br/>
-                  <img src={useBaseUrl('/img/email.png')}/>
+                  <DarkModeImage imgsrcdark="/img/email_dark.png" imgsrclight="/img/email.png" />
                 </p>
               </div>
             </div>
