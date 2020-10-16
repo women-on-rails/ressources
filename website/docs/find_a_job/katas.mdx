@@ -4,7 +4,7 @@ title: S'entraîner aux tests
 slug: /s-entrainer-aux-tests
 ---
 
-import Card from '@site/src/components/card.js';
+import HorizontalCard from '@site/src/components/horizontal_card.js';
 import Avatar from '@site/src/components/avatar.js';
 
 ## Katas
@@ -15,46 +15,37 @@ Les entreprises peuvent en faire passer comme entretien pour tester ta connaissa
 Heureusement de nombreux sites permettent de s'entraîner !<br/>
 
 <div class="container">
-  <div class="row">
-    <div class="col col--4">
-      <Card 
-        src='/img/find_a_job/katas/codewars.jpeg'
-        alt='Logo Codewars'
-        href='https://www.codewars.com/'
-        title='Codewars'
-        description="Sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition. Chaque kata a un espace de discussion où tu peux commenter, aider ou être aidé.e."
-      />
-    </div>
-    <div class="col col--4">
-      <Card 
-        src='/img/find_a_job/katas/exercism.jpg'
-        alt='Logo Exercism'
-        href='https://exercism.io/'
-        title='Exercism'
-        description="Très bien pour les débutant.e.s car les exercices sont relus par des mentors. Il y a près de 100 exercices en Ruby, par niveaux et avec des thématiques (hash, math, boucle...)"
-      />
-    </div>
-    <div class="col col--4">
-      <Card 
-        src='/img/find_a_job/katas/coderbyte.png'
-        alt='Logo Coderbyte'
-        href='https://coderbyte.com/'
-        title='Coderbyte'
-        description="Pour les débutant.e.s, des exercices d'algorithmie vraiment faciles (contrairement à codewars) donc tu peux prendre confiance progressivement."
-      />
-    </div>
-  </div>
-  <div class="row mt-2">
-    <div class="col col--4">
-      <Card 
-        src='/img/find_a_job/katas/prw.png'
-        alt='Logo Paris Ruby Workshop'
-        href='http://www.parisrubyworkshop.org/'
-        title='Paris Ruby Workshop'
-        description="Recensement d'exercices en ruby par niveau (débutant.e, intermédiaire, expert.e)."
-      />
-    </div>
-  </div>
+  <HorizontalCard
+    src='/img/find_a_job/katas/codewars.jpeg'
+    alt='Logo Codewars'
+    href='https://www.codewars.com/'
+    title='Codewars'
+    description="Sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition. Chaque kata a un espace de discussion où tu peux commenter, aider ou être aidé.e."
+  />
+
+  <HorizontalCard
+    src='/img/find_a_job/katas/exercism.jpg'
+    alt='Logo Exercism'
+    href='https://exercism.io/'
+    title='Exercism'
+    description="Très bien pour les débutant.e.s car les exercices sont relus par des mentors. Il y a près de 100 exercices en Ruby, par niveaux et avec des thématiques (hash, math, boucle...)"
+  />
+
+  <HorizontalCard
+    src='/img/find_a_job/katas/coderbyte.png'
+    alt='Logo Coderbyte'
+    href='https://coderbyte.com/'
+    title='Coderbyte'
+    description="Pour les débutant.e.s, des exercices d'algorithmie vraiment faciles (contrairement à codewars) donc tu peux prendre confiance progressivement."
+  />
+
+  <HorizontalCard
+    src='/img/find_a_job/katas/prw.png'
+    alt='Logo Paris Ruby Workshop'
+    href='http://www.parisrubyworkshop.org/'
+    title='Paris Ruby Workshop'
+    description="Recensement d'exercices en ruby par niveau (débutant.e, intermédiaire, expert.e)."
+  />
 </div>
 
 ## Tests techniques d'entreprises
@@ -136,33 +127,26 @@ On en croise de plusieurs types:
 Pour finir, des sites plus généralistes en algorithmie, pas centrés sur un langage en particulier et qui recensent des questions qui peuvent tomber.<br/>
 
 <div class="container">
-  <div class="row">
-    <div class="col col--4">
-      <Card 
-        src='/img/find_a_job/katas/tech_interview_handbook.svg'
-        alt='Logo Tech Interview Handbook'
-        href='https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction'
-        title='Tech Interview Handbook'
-        description="Référence de nombreux sujets d'algorithmie et liste des questions qui peuvent tomber sur chaque sujet."
-      />
-    </div>
-    <div class="col col--4">
-      <Card 
-        src='/img/find_a_job/katas/algodeck.jpg'
-        alt='Logo Algo Deck'
-        href='https://github.com/teivah/algodeck'
-        title='Algo Deck'
-        description="Ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie."
-      />
-    </div>
-    <div class="col col--4">
-      <Card 
-        href='https://github.com/jayshah19949596/CodingInterviews'
-        title='CodingInterviews'
-        description="Des questions techniques posées dans des entreprises telles que VISA, Coursera, Apple..."
-      />
-    </div>
-  </div>
+  <HorizontalCard 
+    src='/img/find_a_job/katas/tech_interview_handbook.svg'
+    alt='Logo Tech Interview Handbook'
+    href='https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction'
+    title='Tech Interview Handbook'
+    description="Référence de nombreux sujets d'algorithmie et liste des questions qui peuvent tomber sur chaque sujet."
+  />
+  <HorizontalCard
+    src='/img/find_a_job/katas/algodeck.jpg'
+    alt='Logo Algo Deck'
+    href='https://github.com/teivah/algodeck'
+    title='Algo Deck'
+    description="Ce dossier en ligne a pour but d'aider à préparer un entretien en algorithmie."
+  />
+  <HorizontalCard
+    src='/img/find_a_job/katas/coding_interviews.png'
+    href='https://github.com/jayshah19949596/CodingInterviews'
+    title='CodingInterviews'
+    description="Des questions techniques posées dans des entreprises telles que VISA, Coursera, Apple..."
+  />
 </div><br/><br/>
 
 :::info Ressource pour cette page
