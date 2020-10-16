@@ -59,20 +59,8 @@
   margin-right: auto;
 }
 
-.mt-1 {
-  margin-top: 1em;
-}
-
 .mt-2 {
   margin-top: 2em;
-}
-
-.ml-1 {
-  margin-left: 1em;
-}
-
-.avatar__photo {
-  margin: 0.5em;
 }
 
 .h-100 {
@@ -83,4 +71,13 @@
   border-radius: var(--ifm-card-border-radius);
   box-shadow: var(--ifm-global-shadow-lw);
   background-color: var(--ifm-card-background-color);
+  margin-top: 1em;
+}
+
+.avatar__intro {
+  margin-left: 1em;
+}
+
+.avatar__photo {
+  margin: 0.5em;
 }
