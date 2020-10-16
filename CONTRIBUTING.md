@@ -1,5 +1,5 @@
 # Contribuer
-Déjà, merci de considérer de contribuer au site Ressources de Women On Rails. C'est grâce à toi que le site reste pertinent pour tou.te.s ses utilisateur.rice.s !<br/>
+Déjà, merci de considérer de contribuer au site Ressources de Women On Rails. C'est grâce à toi que le site reste pertinent pour tou·te·s ses utilisateur·rice·s !<br/>
 Ce fichier a pour but de t'aider à faire en sorte que ta contribution (que ce soit ta première sur un repo en open source ou pas) se passe bien, pour toi comme pour les personnes qui gèrent le site !
 
 # Ce qu'on attend comme contributions
@@ -388,7 +388,7 @@ Si tu ajoutes une page ou un article ça peut être: `add-page-nom-de-la-page` /
 Même chose si tu modifies une ressource: `update-page-nom-de-la-page` / `update-blog-post-nom-ou-sujet-de-l'article`.
 
 ## Les messages de commit
-On a pas de convention particulière.
+On n'a pas de convention particulière.
 
 ## La labelisation des issues
 - Pour les issues simples: `good first issue`.
