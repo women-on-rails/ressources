@@ -15,14 +15,15 @@ Mais tu peux aussi contribuer autrement :
 
 # Les règles pour contribuer
 - Si tu veux ajouter une nouvelle page sur le site (autre qu'une page ressource ou blog) ou corriger un bug, commence par [créer une issue](https://github.com/women-on-rails/ressources/issues/new) pour qu'on valide ça ensemble.
-- Women On Rails suit le code of conduct de [Ruby Monstas](http://coaching.rubymonstas.org/fr/), donc en communiquant avec l'ensemble de la communauté (les personnes gérants le repo, les personnes qui contribuent) tu dois respecter ces règles.
-- Si tu contribues du contenu, il faut qu'il respecte ces règles également, sinon ta contribution sera refusée.
+- Women On Rails suit le [code of conduct de Contributor Covenant](/CODE_OF_CONDUCT), donc en communiquant avec l'ensemble de la communauté (les personnes gérants le repo, les personnes qui contribuent) tu dois respecter ces règles.
+- Si tu contribues du contenu, il faut également qu'il respecte ces règles de conduite, sinon ta contribution sera refusée.
+- On utilise l'écriture inclusive.
 - Pour ce qui est de la production de contenu sur le site ou le blog, on fait attention à ce qu'il n'y ait pas de fautes, donc on te demandera de reprendre ton texte s'il y en a (en t'aidant hein).
 - Le site est ouvert à tout le monde et toute contribution respectant les règles est la bienvenue. Pour le blog, on n'accepte des articles que de femmes membres de Women On Rails, c'est un endroit réservé où faire entendre nos voix et être inspirée.
 
 # Ta première contribution
 Bon, maintenant, par où tu peux commencer ?<br/>
-Tu peux déjà regarder s'il y a des issues ouvertes avec le label [good-first-issues](https://github.com/women-on-rails/ressources/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), qui sont facilement accessibles pour les débutant.e.s en open source, histoire de briser la glace en douceur !<br/>
+Tu peux déjà regarder s'il y a des issues ouvertes avec le label [good-first-issues](https://github.com/women-on-rails/ressources/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), qui sont facilement accessibles pour les débutant·e·s en open source, histoire de briser la glace en douceur !<br/>
 Tu peux aussi [directement proposer une modification sur une des pages déjà en ligne](#contribuer-à-partir-du-site).<br/>
 
 <details>
