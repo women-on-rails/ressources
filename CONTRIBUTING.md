@@ -26,6 +26,8 @@ Bon, maintenant, par où tu peux commencer ?<br/>
 Tu peux déjà regarder s'il y a des issues ouvertes avec le label [good-first-issues](https://github.com/women-on-rails/ressources/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), qui sont facilement accessibles pour les débutantes ou débutants en open source, histoire de briser la glace en douceur !<br/>
 Tu peux aussi [directement proposer une modification sur une des pages déjà en ligne](#contribuer-à-partir-du-site).<br/>
 
+## Des idées de pages à écrire
+
 <details>
   <summary>
     <b>Et à part ça, on a (plein) d'idées de pages ressources à écrire !</b>
