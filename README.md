@@ -25,11 +25,11 @@ Il y a des ressources pour trouver un job, passer des tests techniques, s'entra�
 
 ## Roadmap
 Le site a été commencé en septembre 2020 et on se donne un an pour compléter les principales pages / ressources.<br/>
-On veut aussi qu'il soit beau et donne envie, donc le design et l'expérience des utilisateur·rice·s sont aussi sur la liste.
+On veut aussi qu'il soit beau et donne envie, donc le design et l'expérience des utilisateurs ou utilisatrices sont aussi sur la liste.
 
 ## Contribuer
 Les contributions sont les bienvenues !<br/>
-Que ce soit pour ajouter du contenu, des ressources, sur le design, sur ce repo, un article de blog...<br/>
+Que ce soit pour ajouter du contenu comme des ressources ou un article de blog, améliorer le design, enrichir la doc...<br/>
 Tout est détaillé dans le fichier [CONTRIBUTING.md](contributing).
 
 ## Licence

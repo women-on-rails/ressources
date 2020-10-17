@@ -1,6 +1,4 @@
-# Charte Code de Conduite Contribut·eur·rice·s
-
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+# Charte Code de Conduite Contributrices et Contributeurs
 
 ## Notre engagement
 
