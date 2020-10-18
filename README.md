@@ -24,7 +24,7 @@ Le site Ressources de Women on Rails se veut comme une sorte de Wiki pour progre
 Il y a des ressources pour trouver un job, passer des tests techniques, s'entraîner, rejoindre des projets en open-source, développer ses propres projets...<br/>
 
 ## Roadmap
-Le site a été commencé en septembre 2020 et on se donne un an pour compléter les principales pages / ressources.<br/>
+Le site a été commencé en septembre 2020 et on se donne un an pour [compléter les principales pages / ressources](https://github.com/women-on-rails/ressources/projects?query=is%3Aopen+sort%3Aname-asc).<br/>
 On veut aussi qu'il soit beau et donne envie, donc le design et l'expérience des utilisateurs ou utilisatrices sont aussi sur la liste.
 
 ## Contribuer

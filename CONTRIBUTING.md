@@ -25,61 +25,7 @@ Mais tu peux aussi contribuer autrement :
 Bon, maintenant, par où tu peux commencer ?<br/>
 Tu peux déjà regarder s'il y a des issues ouvertes avec le label [good-first-issues](https://github.com/women-on-rails/ressources/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), qui sont facilement accessibles pour les débutantes ou débutants en open source, histoire de briser la glace en douceur !<br/>
 Tu peux aussi [directement proposer une modification sur une des pages déjà en ligne](#contribuer-à-partir-du-site).<br/>
-
-## Des idées de pages à écrire
-
-<details>
-  <summary>
-    <b>Et à part ça, on a (plein) d'idées de pages ressources à écrire !</b>
-  </summary>
-  <ul>
-  <li>Ajouter une catégorie <b>Apprendre</b> avec les pages:</li>
-    <ul>
-      <li>pourquoi apprendre à coder</li>
-      <li>pourquoi choisir Ruby on Rails</li>
-      <li>comment se former (sites, formation...)</li>
-    </ul>
-  <li>Dans la catégorie <b>Trouver un job</b></li>
-    <ul>
-      <li>ajouter les pages suivantes:</li>
-        <ul>
-          <li>candidater (rédiger un CV / une lettre de motivation)</li>
-          <li>le processus d'embauche (le déroulé du process: appel / test technique / retours, ce qu'attend les recruteurs d'un entretien / test)</li>
-          <li>les questions à poser lors du recrutement</li>
-          <li>après l'entretien (comment remercier / relancer)</li>
-        </ul>
-      <li>ajouter sur la page "Questions techniques" directement des questions en Ruby, Rails, SQL, Active Records, par niveau</li>
-    </ul>
-  <li>Dans la catégorie <b>Pratiquer</b>:</li>
-    <ul>
-      <li>rajouter une présentation de l'open source / petite historique sur la page concernée</li>
-      <li>rajouter dans la page projets persos des exemples de projets sous RoR</li>
-    </ul>
-  <li>Dans la catégorie <b>Rejoindre la communauté</b>:</li>
-    <ul>
-      <li>Faire une page "Transmettre" avec: Écrire des articles (medium, dev.io); Rejoindre des réseaux solidaires (social builder); Participer à un talk (comment se préparer) => Tout ça peut éventuellement être une catégorie en soi</li>
-    </ul>
-  <li>Ajouter une catégorie <b>Visualuser l'écosystème RoR</b>:</li>
-    <ul>
-      <li>Trombinoscope avec profils twitter (DHH, Matz...)</li>
-      <li>Recenser les entreprises qui codent en RoR par localisation avec des liens vers leurs pages présentant leur tech, leur équipe...</li>
-    </ul>
-  <li>Ajouter une catégorie <b>S'inspirer</b>:</li>
-    <ul>
-      <li>Page "Portraits de développeuses"</li>
-    </ul>
-  <li>Ajouter une catégorie <b>Au-delà de RoR</b>:</li>
-    <ul>
-      <li>Page "Les petits plus en entreprise" avec des ressources pour: command line, git, regex, sql, css / html, bootstrap, vanilla JS, comment se débugguer</li>
-      <li>Ressources Front-End</li>
-      <li>Resources Design</li>
-      <li>Ressources Computer Science</li>
-    </ul>
-  <li>Ajouter une catégorie <b>Lexique</b> ?</li>
-    <li>Page  "Termes techniques du site" ?</li>
-    <li>Page "Jargon start-up" ?</li>
-  </ul>
-</details><br/>
+Dans la section [projets](https://github.com/women-on-rails/ressources/projects?query=is%3Aopen+sort%3Aname-asc) il y a l'avancement des pages qu'on souhaite rajouter sur le site. Si tu en vois qui t'intéressent, créé une issue avec la ou les pages que tu souhaites écrire et on te taguera sur la carte.
 
 ## Ta toute première Pull Request
 Si tu n'as jamais fait de Pull Request auparavant, tu peux [t'entraîner ici](https://github.com/firstcontributions/first-contributions).

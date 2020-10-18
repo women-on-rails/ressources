@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Ce site est participatif
 Tu peux:
   - nous dire ce que tu aimerais y voir :)
-  - modifier ou ajouter une ressource (on a une [liste d'idées de pages à écrire](/CONTRIBUTING.md#des-idées-de-pages-à-écrire)
+  - modifier ou ajouter une ressource (on a une [liste d'idées de pages à écrire par catégorie](https://github.com/women-on-rails/ressources/projects?query=is%3Aopen+sort%3Aname-asc))
   - écrire un article pour le blog
 
 ## Proposer du contenu sans coder
