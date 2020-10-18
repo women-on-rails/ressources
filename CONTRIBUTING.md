@@ -149,6 +149,7 @@ $ yarn start
 Cela va t'ouvrir une page `http://localhost:3000/`
 
 ## Quel format pour ta Pull Request
+Quand tu crées ta Pull Request, tu auras automatiquement un [template à remplir pour décrire tes changements](.github/PULL_REQUEST_TEMPLATE.md).<br/>
 Tu peux l'écrire soit en anglais soit en français, comme tu préfères.<br/>
 Décris ce que tu as fait, si ça concerne du design, c'est bien de mettre une image avant/après.<br/>
 Voici [un exemple de pull request qui a été mergée](https://github.com/women-on-rails/ressources/pull/7).<br/>
@@ -156,18 +157,7 @@ N'oublie pas de remplir les éléments sur le côté (`AJuliette` en reviewer, t
 <img src="website/static/img/contributing/infos_pull_request.png" height="300">
 
 ## Comment ajouter une issue
-Tu peux contribuer aussi en signalant un bug ou en proposant une feature.<br/>
-[Un exemple d'issue](https://github.com/women-on-rails/ressources/issues/2).<br/>
-Les catégories à ajouter:
-```
-## Résumé de l'issue
-
-## Situation actuelle
-
-## Situation voulue
-
-## Informations complémentaires
-```
+Quand tu crées une issue, on te propose automatiquement un template pour [signaler un bug](/.github/ISSUE_TEMPLATE/bug_report.md) ou en [proposer une feature](./.github/ISSUE_TEMPLATE/feature_request.md).<br/>
 
 # Une présentation du repo histoire de s'y retrouver
 
