@@ -157,7 +157,7 @@ N'oublie pas de remplir les éléments sur le côté (`AJuliette` en reviewer, t
 <img src="website/static/img/contributing/infos_pull_request.png" height="300">
 
 ## Comment ajouter une issue
-Quand tu crées une issue, on te propose automatiquement un template pour [signaler un bug](/.github/ISSUE_TEMPLATE/bug_report.md) ou en [proposer une feature](./.github/ISSUE_TEMPLATE/feature_request.md).<br/>
+Quand tu crées une issue, on te propose automatiquement un template pour [signaler un bug](/.github/ISSUE_TEMPLATE/bug_report.md) ou [proposer une feature](./.github/ISSUE_TEMPLATE/feature_request.md).<br/>
 
 # Une présentation du repo histoire de s'y retrouver
 
@@ -384,5 +384,5 @@ On n'a pas de convention particulière, fais comme tu as l'habitude.
 
 ## La labelisation des issues
 - Pour les issues simples: `good first issue`.
-- Pour celles qui ont besoin d'être redéfinies et d'aide dans la conception: `pending`.
+- Pour celles qui ont besoin d'être redéfinies et d'aide dans la conception: `en cours d'écriture`.
 - Pour les bug fixes: `bug`.
