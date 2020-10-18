@@ -102,8 +102,7 @@ Quand tu crées ta Pull Request, tu auras automatiquement un [template à rempli
 Tu peux l'écrire soit en anglais soit en français, comme tu préfères.<br/>
 Décris ce que tu as fait, si ça concerne du design, c'est bien de mettre une image avant/après.<br/>
 Voici [un exemple de pull request qui a été mergée](https://github.com/women-on-rails/ressources/pull/7).<br/>
-N'oublie pas de remplir les éléments sur le côté (`AJuliette` en reviewer, toi-même en assignee, le lien vers l'issue s'il y en a une).
-<img src="website/static/img/contributing/infos_pull_request.png" height="300">
+N'oublie pas de faire le lien vers l'issue s'il y en a une.
 
 ## Comment ajouter une issue
 Quand tu crées une issue, on te propose automatiquement un template pour [signaler un bug](/.github/ISSUE_TEMPLATE/bug_report.md) ou [proposer une feature](./.github/ISSUE_TEMPLATE/feature_request.md).<br/>
