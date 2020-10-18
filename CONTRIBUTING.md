@@ -24,7 +24,7 @@ Mais tu peux aussi contribuer autrement :
 # Ta première contribution
 Bon, maintenant, par où tu peux commencer ?<br/>
 Tu peux déjà regarder s'il y a des issues ouvertes avec le label [good-first-issues](https://github.com/women-on-rails/ressources/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), qui sont facilement accessibles pour les débutantes ou débutants en open source, histoire de briser la glace en douceur !<br/>
-Quand tu vois une Pull Request qui t'intéresse et dont personne ne s'occupe, commente en disant que tu souhaites la faire et tu peux commencer à coder !<br/>
+Quand tu vois une issue qui t'intéresse et dont personne ne s'occupe, commente en disant que tu souhaites la faire et tu peux commencer à coder !<br/>
 Tu peux aussi [directement proposer une modification sur une des pages déjà en ligne](#contribuer-à-partir-du-site).<br/>
 Dans la section [projects](https://github.com/women-on-rails/ressources/projects?query=is%3Aopen+sort%3Aname-asc) il y a l'avancement des pages qu'on souhaite rajouter sur le site:
 - Si tu en vois qui t'intéressent, créé une issue avec la ou les pages que tu souhaites écrire pour pas que tout le monde l'écrive en même temps et peut-être même demander de l'aide ou collaborer :)
