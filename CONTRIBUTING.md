@@ -19,7 +19,7 @@ Mais tu peux aussi contribuer autrement :
 - Si tu contribues du contenu, il faut également qu'il respecte ces règles de conduite, sinon ta contribution sera refusée.
 - Les textes doivent être inclusifs. Ça donne: `Salut les contributeurs et les contributrices` plutôt que juste `Salut les contributeurs`.
 - Pour ce qui est de la production de contenu sur le site ou le blog, on fait attention à ce qu'il n'y ait pas de fautes, donc on te demandera de reprendre ton texte s'il y en a (en t'aidant hein).
-- Le site est ouvert à tout le monde et toute contribution respectant les règles est la bienvenue. Pour le blog, on n'accepte des articles que de femmes membres de Women On Rails, c'est un endroit réservé où faire entendre nos voix et être inspirée.
+- Le site est ouvert à tout le monde et toute contribution respectant les règles est la bienvenue. Pour le blog, on n'accepte des articles que de femmes membres de Women On Rails, c'est un endroit réservé où faire entendre nos voix et être inspirées.
 
 # Ta première contribution
 Bon, maintenant, par où tu peux commencer ?<br/>
