@@ -6,7 +6,7 @@
 <!-- Si utile, décris les étapes pour reproduire le bug -->
 
 ## Situation voulue
-<!-- Décris ce que tu attendais si le bug n'avais pas eu lieu -->
+<!-- Décris ce que tu attendais si le bug n'avait pas eu lieu -->
 
 ## Screenshots
 <!-- Si nécessaire, ajoute des screenshots pour illustrer le bug -->
