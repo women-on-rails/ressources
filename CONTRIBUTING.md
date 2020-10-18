@@ -380,7 +380,7 @@ Si tu ajoutes une page ou un article ça peut être: `add-page-nom-de-la-page` /
 Même chose si tu modifies une ressource: `update-page-nom-de-la-page` / `update-blog-post-nom-ou-sujet-de-l'article`.
 
 ## Les messages de commit
-On n'a pas de convention particulière, fais comme tu as l'habiture.
+On n'a pas de convention particulière, fais comme tu as l'habitude.
 
 ## La labelisation des issues
 - Pour les issues simples: `good first issue`.
