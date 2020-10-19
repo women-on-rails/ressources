@@ -12,6 +12,8 @@ export default function Avatar({
       <a
         class="avatar__photo-link avatar__photo avatar__photo--lg"
         href={href}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           alt={alt}
