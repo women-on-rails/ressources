@@ -20,7 +20,7 @@
 </div><br/><br/>
 
 ## Bienvenue !
-Le site Ressources de Women on Rails se veut comme une sorte de Wiki pour progresser en Ruby on Rails, techniquement comme proessionnellement.<br/>
+Le site Ressources de Women on Rails se veut comme une sorte de Wiki pour progresser en Ruby on Rails, techniquement comme professionnellement.<br/>
 Il y a des ressources pour trouver un job, passer des tests techniques, s'entraîner, rejoindre des projets en open-source, développer ses propres projets...<br/>
 
 ## Roadmap
