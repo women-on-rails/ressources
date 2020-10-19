@@ -30,7 +30,7 @@ On veut aussi qu'il soit beau et donne envie, donc le design et l'expérience de
 ## Contribuer
 Les contributions sont les bienvenues !<br/>
 Que ce soit pour ajouter du contenu comme des ressources ou un article de blog, améliorer le design, enrichir la doc...<br/>
-Tout est détaillé dans le fichier [CONTRIBUTING.md](contributing).
+Tout est détaillé dans le fichier [CONTRIBUTING.md](https://github.com/women-on-rails/ressources/blob/master/CONTRIBUTING.md).
 
 ## Licence
-Ce projet est sous licence [GNU GENERAL PUBLIC LICENSE](license).
+Ce projet est sous licence [GNU GENERAL PUBLIC LICENSE](https://github.com/women-on-rails/ressources/blob/master/LICENSE).
