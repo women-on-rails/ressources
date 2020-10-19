@@ -22,7 +22,9 @@ export default function Avatar({
       </a>
       <div class="avatar__intro">
         <a
-          href={useBaseUrl(src)}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h4 class="avatar__name">{title}</h4>
         </a>
