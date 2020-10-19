@@ -18,4 +18,4 @@ Tu peux:
 <img src={useBaseUrl('/img/email.png')}/>
 
 ## Proposer du contenu en codant
-Tu trouveras toutes les infos techniques en détails pour contribuer en codant dans le [fichier CONTRIBUTING du projet](/CONTRIBUTING.md).
+Tu trouveras toutes les infos techniques en détails pour contribuer en codant dans le [fichier CONTRIBUTING du projet](https://github.com/women-on-rails/ressources/blob/master/CONTRIBUTING.md).
