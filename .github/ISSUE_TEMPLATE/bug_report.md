@@ -1,4 +1,11 @@
-# Issue pour un bug
+---
+name: Signaler un bug
+about: ''
+title: ''
+labels:
+- content
+assignees: ''
+---
 
 ## Description du bug
 

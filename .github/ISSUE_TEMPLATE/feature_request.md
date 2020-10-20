@@ -1,4 +1,11 @@
-# Issue pour une feature
+---
+name: Proposer une amélioration
+about: ''
+title: ''
+labels:
+- content
+assignees: ''
+---
 
 ## Résumé de l'issue
 
