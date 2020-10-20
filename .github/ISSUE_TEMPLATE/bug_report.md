@@ -1,6 +1,6 @@
 ---
 name: Signaler un bug
-about: ''
+about: 'Quelque chose ne fonctionne pas ou mal ? Dis-le nous'
 title: ''
 labels:
 - content

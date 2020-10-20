@@ -1,6 +1,6 @@
 ---
 name: Proposer une amélioration
-about: ''
+about: 'Tu penses que quelque chose manque sur le site ? Propose une solution'
 title: ''
 labels:
 - content
