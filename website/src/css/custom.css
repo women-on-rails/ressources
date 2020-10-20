@@ -52,3 +52,28 @@
 .social-logo {
   height: 50px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.avatar {
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  background-color: var(--ifm-card-background-color);
+  margin-top: 1em;
+}
+
+.avatar__intro {
+  margin-left: 1em;
+}
+
+.avatar__photo {
+  margin: 0.5em;
+}
