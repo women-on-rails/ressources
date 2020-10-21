@@ -30,6 +30,20 @@
   --ifm-color-primary-light: #1ea899;
   --ifm-color-primary-lighter: #1fb0a0;
   --ifm-color-primary-lightest: #23c7b5;
+
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 .h-100 {
@@ -51,4 +65,80 @@
 
 .social-logo {
   height: 50px;
+}
+
+
+.header {
+  height: 50vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(46, 41, 78, 0.8),
+      rgba(46, 41, 78, 0.8)
+    );
+  background-size: cover; /* Permet d'être responsive */
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+}
+
+/* Card proposition */
+.dark-purple {
+  color: rgb(46, 41, 78)
+}
+
+.text--summary {
+  font-size: 0.9rem;
+}
+
+.card {
+  transition: all 0.3s
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.card:active {
+  transform: translateY(3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card__link {
+  text-decoration:none;
+  color: rgb(36, 36, 36);
+}
+
+.card__link:hover {
+  text-decoration:none;
+  color: black
+}
+
+.card__date {
+  margin-top: 0;
+  float: right;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.card__tag {
+  background-color: #ffb400;
+  border-radius: 1rem;
+  color: white;
+  float: left;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: .3rem .3rem;
+}
+
+.card__author {
+  margin-top: 0;
+  float: right;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+  font-size: 0.8rem;
+  font-style: italic;
 }

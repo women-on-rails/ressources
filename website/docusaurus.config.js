@@ -57,7 +57,11 @@ const siteConfig = {
           label: 'Twitter',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        {
+          to: 'blog-index',
+          label: 'Blog',
+          position: 'right', 
+        },
         {to: 'docs', label: 'Ressources', position: 'right'},
         {
           href: 'https://github.com/women-on-rails/ressources',
