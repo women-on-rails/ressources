@@ -40,7 +40,7 @@ Ce projet est sous licence [GNU GENERAL PUBLIC LICENSE](https://github.com/women
 
 ## Contributrices et contributeurs ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Un énorme merci à celles et ceux qui contribuent au projet ❤️ ([dictionnaire des emojis](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -57,4 +57,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Liste des contributrices et contributeurs implémentée grâce à [all-contributors](https://github.com/all-contributors/all-contributors), un projet en open source qui a aussi besoin d'aide.
