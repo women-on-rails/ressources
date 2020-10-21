@@ -1,6 +1,6 @@
 <div align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <h1>
     <span>Women on Rails</span><br/>
@@ -49,6 +49,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/clodiap"><img src="https://avatars0.githubusercontent.com/u/38593370?v=4" width="100px;" alt=""/><br /><sub><b>clodiap</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Aclodiap" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/morganbonhomme"><img src="https://avatars3.githubusercontent.com/u/62025173?v=4" width="100px;" alt=""/><br /><sub><b>Morgan</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Amorganbonhomme" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/zaratan"><img src="https://avatars3.githubusercontent.com/u/3338913?v=4" width="100px;" alt=""/><br /><sub><b>Denis <Zaratan> Pasin</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/pulls?q=is%3Apr+reviewed-by%3Azaratan" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
