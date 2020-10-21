@@ -1,6 +1,6 @@
 <div align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <h1>
     <span>Women on Rails</span><br/>
@@ -38,9 +38,9 @@ Tout est détaillé dans le fichier [CONTRIBUTING.md](https://github.com/women-o
 ## Licence
 Ce projet est sous licence [GNU GENERAL PUBLIC LICENSE](https://github.com/women-on-rails/ressources/blob/master/LICENSE).
 
-## Contributors ✨
+## Contributrices et contributeurs ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Un énorme merci à celles et ceux qui contribuent au projet ❤️ ([dictionnaire des emojis](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -48,6 +48,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/clodiap"><img src="https://avatars0.githubusercontent.com/u/38593370?v=4" width="100px;" alt=""/><br /><sub><b>clodiap</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Aclodiap" title="Bug reports">🐛</a> <a href="https://github.com/women-on-rails/ressources/pulls?q=is%3Apr+reviewed-by%3Aclodiap" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/women-on-rails/ressources/commits?author=clodiap" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/morganbonhomme"><img src="https://avatars3.githubusercontent.com/u/62025173?v=4" width="100px;" alt=""/><br /><sub><b>Morgan</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Amorganbonhomme" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/zaratan"><img src="https://avatars3.githubusercontent.com/u/3338913?v=4" width="100px;" alt=""/><br /><sub><b>Denis <Zaratan> Pasin</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/pulls?q=is%3Apr+reviewed-by%3Azaratan" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
@@ -55,4 +57,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Liste des contributrices et contributeurs implémentée grâce à [all-contributors](https://github.com/all-contributors/all-contributors), un projet en open source qui a aussi besoin d'aide.

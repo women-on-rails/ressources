@@ -15,6 +15,24 @@
         "review",
         "code"
       ]
+    },
+    {
+      "login": "morganbonhomme",
+      "name": "Morgan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/62025173?v=4",
+      "profile": "https://github.com/morganbonhomme",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "zaratan",
+      "name": "Denis <Zaratan> Pasin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3338913?v=4",
+      "profile": "https://github.com/zaratan",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
