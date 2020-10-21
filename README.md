@@ -47,7 +47,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/clodiap"><img src="https://avatars0.githubusercontent.com/u/38593370?v=4" width="100px;" alt=""/><br /><sub><b>clodiap</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Aclodiap" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/clodiap"><img src="https://avatars0.githubusercontent.com/u/38593370?v=4" width="100px;" alt=""/><br /><sub><b>clodiap</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Aclodiap" title="Bug reports">🐛</a> <a href="https://github.com/women-on-rails/ressources/pulls?q=is%3Apr+reviewed-by%3Aclodiap" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
