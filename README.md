@@ -38,7 +38,7 @@ Tout est détaillé dans le fichier [CONTRIBUTING.md](https://github.com/women-o
 ## Licence
 Ce projet est sous licence [GNU GENERAL PUBLIC LICENSE](https://github.com/women-on-rails/ressources/blob/master/LICENSE).
 
-## Contributors ✨
+## Contributrices et contributeurs ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
