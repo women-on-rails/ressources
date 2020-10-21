@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "clodiap",
+      "name": "clodiap",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/38593370?v=4",
+      "profile": "https://github.com/clodiap",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ressources",
+  "projectOwner": "women-on-rails",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
