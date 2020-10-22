@@ -90,9 +90,20 @@ html {
   font-size: 0.9rem;
 }
 
-.card {
-  transition: all 0.3s
+.text--dark-mode {
+ color: white;
 }
+
+
+.card {
+  transition: all 0.3s;
+}
+
+.card--dark-mode {
+  transition: all 0.3s;
+  border: 1px solid white;
+}
+
 
 .card:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -131,7 +142,7 @@ html {
   font-size: 0.8rem;
   font-weight: 700;
   line-height: 1;
-  padding: .3rem .3rem;
+  padding: .3rem .6rem;
 }
 
 .card__author {
