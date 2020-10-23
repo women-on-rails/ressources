@@ -8,7 +8,6 @@ export default function BlogCard(props) {
   let style = '';
   isDarkTheme ? style = "--dark-mode" : style = "";
 
-
   return (
     <div className={`card--demo${style}`}>
       <a className="card__link" href={props.link}>
