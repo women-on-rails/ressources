@@ -14,6 +14,7 @@ const MyPage = () => {
       <div className="hero h-100 text--center">
         <div className="container">
           <div className="padding-vert--md">
+            <img alt="Logo Women On Rails" src={useBaseUrl('img/logo.jpeg')} />
             <h1 className="hero__title">{siteConfig.title}</h1>
             <p className="hero__subtitle">Pour préparer tes entretiens d'embauche, progresser en Ruby et son framework Rails et rejoindre une communauté bienveillante pour coder ensemble.</p>
           </div>
