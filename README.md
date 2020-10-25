@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="center">
@@ -51,6 +51,7 @@ Un énorme merci à celles et ceux qui contribuent au projet ❤️ ([dictionnai
     <td align="center"><a href="https://github.com/clodiap"><img src="https://avatars0.githubusercontent.com/u/38593370?v=4" width="100px;" alt=""/><br /><sub><b>clodiap</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Aclodiap" title="Bug reports">🐛</a> <a href="https://github.com/women-on-rails/ressources/pulls?q=is%3Apr+reviewed-by%3Aclodiap" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/women-on-rails/ressources/commits?author=clodiap" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/morganbonhomme"><img src="https://avatars3.githubusercontent.com/u/62025173?v=4" width="100px;" alt=""/><br /><sub><b>Morgan</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/issues?q=author%3Amorganbonhomme" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/zaratan"><img src="https://avatars3.githubusercontent.com/u/3338913?v=4" width="100px;" alt=""/><br /><sub><b>Denis <Zaratan> Pasin</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/pulls?q=is%3Apr+reviewed-by%3Azaratan" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://cryptogram.space"><img src="https://avatars1.githubusercontent.com/u/7459685?v=4" width="100px;" alt=""/><br /><sub><b>Crysicia</b></sub></a><br /><a href="https://github.com/women-on-rails/ressources/commits?author=Crysicia" title="Code">💻</a></td>
   </tr>
 </table>
 
