@@ -33,6 +33,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "Crysicia",
+      "name": "Crysicia",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7459685?v=4",
+      "profile": "http://cryptogram.space",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
