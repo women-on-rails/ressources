@@ -1,0 +1,75 @@
+.timeline {
+  margin: auto;
+  width: 500px
+}
+
+@media only screen and (max-device-width: 500px) {
+  .timeline { width: 100%; }
+}
+
+.step {
+  border-top: 2px dashed var(--ifm-color-primary);
+  counter-increment: section;
+  margin:0;
+  padding: 30px;
+  position: relative;
+}
+
+.step p { text-align: justify; }
+
+.step:nth-child(even):before {
+  content: counter(section);
+  right: 100%; 
+  margin-right: -20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: var(--ifm-color-primary);
+  text-align:center;
+  color: white;
+  font-size: 110%;
+}
+
+.step:nth-child(odd):before {
+  content: counter(section);
+  left: 100%; 
+  margin-left: -20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: var(--ifm-color-primary);
+  text-align:center;
+  color: white;
+  font-size: 110%;
+}
+
+.step:nth-child(even) {
+  border-left: 2px dashed var(--ifm-color-primary);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px; 
+  padding-right: 0;
+}
+
+.step:nth-child(odd) {
+  border-right: 2px dashed var(--ifm-color-primary);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px; 
+  padding-left: 0;
+}
+
+.step:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+.step:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
