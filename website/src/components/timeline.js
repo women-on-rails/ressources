@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from '@site/src/css/timeline.module.css';
+import { timeline } from '@site/src/css/timeline.module.css';
 
 export default function Timeline (props){
   return (
-    <div className={styles.timeline}>
-      {props.children}
+    <div className={ timeline }>
+      { props.children }
     </div>
   );
 }
