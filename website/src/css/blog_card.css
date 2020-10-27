@@ -1,18 +1,20 @@
+.card__link {
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.card__link:hover {
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
 .text--summary {
   font-size: 0.9rem;
 }
 
-.text--dark-mode {
-  color: white;
-}
-
 .card {
   transition: all 0.3s;
-}
-
-.card--dark-mode {
-  transition: all 0.3s;
-  border: 1px solid white;
+  border: 1px solid var(--ifm-color-gray-100);
 }
 
 .card:hover {
@@ -23,16 +25,6 @@
 .card:active {
   transform: translateY(3px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.card__link {
-  text-decoration: none;
-  color: rgb(36, 36, 36);
-}
-
-.card__link:hover {
-  text-decoration: none;
-  color: black;
 }
 
 .card__date {
