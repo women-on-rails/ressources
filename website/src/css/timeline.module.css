@@ -30,6 +30,7 @@
   text-align:center;
   color: white;
   font-size: 110%;
+  line-height: 1.2rem
 }
 
 .step:nth-child(odd):before {
@@ -45,6 +46,7 @@
   text-align:center;
   color: white;
   font-size: 110%;
+  line-height: 1.2rem
 }
 
 .step:nth-child(even) {
