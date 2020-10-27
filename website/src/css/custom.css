@@ -32,6 +32,19 @@
   --ifm-color-primary-lightest: #23c7b5;
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+@import "blog_card.css";
+
 .h-100 {
   height: calc(100vh - 150px);
 }

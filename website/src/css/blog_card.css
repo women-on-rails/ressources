@@ -1,0 +1,57 @@
+.card__link {
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.card__link:hover {
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.text--summary {
+  font-size: 0.9rem;
+}
+
+.card {
+  transition: all 0.3s;
+  border: 1px solid var(--ifm-color-gray-100);
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.card:active {
+  transform: translateY(3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card__date {
+  margin-top: 0;
+  float: right;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.card__tag {
+  background-color: #ffb400;
+  border-radius: 1rem;
+  color: white;
+  float: left;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.3rem 0.6rem;
+}
+
+.card__author {
+  margin-top: 0;
+  float: right;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+  font-size: 0.8rem;
+  font-style: italic;
+}
