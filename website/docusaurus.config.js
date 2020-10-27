@@ -58,7 +58,7 @@ const siteConfig = {
           position: 'left',
         },
         {
-          to: 'blog-index',
+          to: 'blog',
           label: 'Blog',
           position: 'right', 
         },

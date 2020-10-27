@@ -37,15 +37,13 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 html {
   font-size: 100%;
-  box-sizing: border-box;
 }
 
-@import "../components/blog_card/blog_card.css";
+@import "blog_card.css";
 
 .h-100 {
   height: calc(100vh - 150px);

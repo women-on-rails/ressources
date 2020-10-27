@@ -2,7 +2,7 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
-import BlogCard from "../components/blog_card/blog_card.js";
+import BlogCard from "../components/blog_card.js";
 
 const MyPage = () => {
   const { siteConfig } = useDocusaurusContext();
