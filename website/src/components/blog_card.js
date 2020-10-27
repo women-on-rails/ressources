@@ -1,9 +1,6 @@
 import React from "react";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import useThemeContext from "@theme/hooks/useThemeContext";
 
 export default function BlogCard(props) {
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeContext();
 
   return (
     <a className="card__link" href={props.link}>
