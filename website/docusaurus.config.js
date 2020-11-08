@@ -57,6 +57,7 @@ const siteConfig = {
           label: 'Twitter',
           position: 'left',
         },
+        {to: 'newsletter', label: 'Notre newsletter', position: 'right'},
         {
           to: 'blog',
           label: 'Blog',

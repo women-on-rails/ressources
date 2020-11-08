@@ -90,3 +90,25 @@ html {
 .avatar__photo {
   margin: 0.5em;
 }
+
+.pt-1 {
+  padding-top: 1em;
+}
+
+.hero__title--middle {
+  font-size: 2rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.container--centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m-0 {
+  margin: 0 ;
+}
