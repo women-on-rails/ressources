@@ -38,11 +38,6 @@
 }
 
 .newsletterImage {
-  width: 100%;
+  width: 95%;
   max-width: 538px;
 }
-
-.bannerNewsletter {
-  flex-wrap: wrap-reverse;
-}
-

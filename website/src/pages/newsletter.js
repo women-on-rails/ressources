@@ -14,8 +14,15 @@ const MyPage = () => {
       description={siteConfig.tagline}
     >
       <div className="hero">
-        <div className="container text--center">
-          <div className={`row ${styles.bannerNewsletter}`} >
+        <div className="container">
+          <div className="row" >
+            <div className="col col--6">
+              <img
+                alt='Boîte aux lettres avec du courrier dedans'
+                src={useBaseUrl('img/newsletter/inbox.png')}
+                className= { styles.newsletterImage }
+              />
+            </div>
             <div className="col col--6">
               <h1 className="hero__title">La newsletter de Women On Rails</h1>
               <p className="hero__subtitle">Reste à jour de l'actualité du secteur avec les infos essentielles décodées</p>
@@ -27,13 +34,6 @@ const MyPage = () => {
                 >
                 </iframe>
               </div>
-            </div>
-            <div className="col col--6">
-              <img
-                alt='Boîte aux lettres avec du courrier dedans'
-                src={useBaseUrl('img/newsletter/inbox.png')}
-                className= { styles.newsletterImage }
-              />
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ const MyPage = () => {
               </p>
               <p className="m-0">
                 Mais où suivre tout ça ?
-                Twitter est un flux continu d'infos, il y a des milliers d'articles et de tutos à lire, les tutos vidéos durent 1 heure.
+                Twitter est un flux continu d'infos, il y a des milliers d'articles et de tutos à lire, les vidéos durent 1 heure.
               </p>
               <p className="m-0"><b>Dans cette newsletter, l'info est déjà traitée et condensée.</b></p>
             </div>

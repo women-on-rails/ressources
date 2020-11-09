@@ -32,6 +32,8 @@
   --ifm-color-primary-lightest: #23c7b5;
 }
 
+@import "blog_card.css";
+
 *,
 *::after,
 *::before {
@@ -43,10 +45,8 @@ html {
   font-size: 100%;
 }
 
-@import "blog_card.css";
-
 .h-100 {
-  height: calc(100vh - 150px);
+  height: calc(100vh - 40px);
 }
 
 .header-github-link:hover {
