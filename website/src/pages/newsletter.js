@@ -86,6 +86,13 @@ const MyPage = () => {
 
       <div className="hero">
         <div className="container container--centered">
+          <h2 className="hero__title--middle">Lire les précédentes éditions</h2>
+          <p>13 novembre 2020 | <a target="_blank" href="https://womenonrails.substack.com/p/post-mortem-hacktoberfest-women-make-spa-games">👻 Post-mortem, Hacktoberfest, Women Make, l'avenir des SPAs et des jeux</a></p>
+        </div>
+      </div>
+
+      <div className="hero">
+        <div className="container container--centered">
           <h2 className="hero__title--middle">On en parle</h2>
           <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Je viens de recevoir la première newsletter de <a href="https://twitter.com/womenonrails?ref_src=twsrc%5Etfw">@womenonrails</a> ! Super travail 👏👏👏Je conseille pour les débutantes, un bon moyen de se tenir au courant de ce qui se passe dans la communauté Ruby et Rails. En français !</p>&mdash; Little Cheung (<a href='https://twitter.com/Ynote_hk'>@Ynote_hk</a>)<p><a href="https://twitter.com/Ynote_hk/status/1323910274848563205?ref_src=twsrc%5Etfw">Voir le tweet</a></p></blockquote>
           <blockquote><p>J'ai beaucoup aimé ce premier opus de la newsletter de WoR ! Le ton est pas impersonnel comme dans la plupart des autres newsletters, ça se lit bien. Les inserts sous chaque section la rendent encore plus humaine/perso.</p>&mdash; Lucien, étudiant à 42 (<a href='https://twitter.com/Crysicia'>@Crysicia</a>)</blockquote>
