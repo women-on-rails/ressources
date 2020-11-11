@@ -1,0 +1,43 @@
+.newsletterList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.newsletterList li {
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+}
+
+.newsletterList li::before {
+  content: "🗞️ ";
+}
+
+.newsletterList li:nth-child(2)::before {
+  content: "💎 ";
+}
+
+.newsletterList li:nth-child(3)::before {
+  content: "💬 ";
+}
+
+.newsletterList li:nth-child(4)::before {
+  content: "🧐 ";
+}
+
+.newsletterList li:nth-child(5)::before {
+  content: "✨ ";
+}
+
+.newsletterList li:nth-child(6)::before {
+  content: "🌱 ";
+}
+
+.newsletterList li:nth-child(7)::before {
+  content: "⏲️ ";
+}
+
+.newsletterImage {
+  width: 95%;
+  max-width: 538px;
+}
