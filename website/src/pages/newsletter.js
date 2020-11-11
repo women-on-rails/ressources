@@ -23,7 +23,7 @@ const MyPage = () => {
                 className= { styles.newsletterImage }
               />
             </div>
-            <div className="col col--6">
+            <div className="col col--6 text--center">
               <h1 className="hero__title">La newsletter de Women On Rails</h1>
               <p className="hero__subtitle">Reste à jour de l'actualité du secteur avec les infos essentielles décodées</p>
               <div>
