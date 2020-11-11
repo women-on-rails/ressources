@@ -226,4 +226,4 @@ Pour ce faire :
 3. Tu peux aussi n'importer que les classes dont tu as besoin : `import { timeline } from '@site/src/css/toncomponent.module.css';`
 4. Pour l'utiliser dans ton code : `<div className={ styles.step }>`, si tu n'as importé que les classes dont tu avais besoin : `<div className={ timeline }>`
 
-Pour plus d'infos, voici la [doc officielle](https://v2.docusaurus.io/docs/styling-layout/#css-modules)
+Pour plus d'infos sur les modules CSS, voici la [doc officielle](https://v2.docusaurus.io/docs/styling-layout/#css-modules).
