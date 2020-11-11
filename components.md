@@ -174,7 +174,11 @@ Pour te servir d'un component, il faut:
 
 **Utilisation**
 
-1. Importation en haut du fichier : `import HorizontalCard from '@site/src/components/horizontal_card.js';`
+1. Il te faudra importer 2 fichiers :
+```jsx
+import Timeline from '@site/src/components/timeline.js';
+import TimelineStep from '@site/src/components/timeline_step.js';
+```
 2. Exemple :
 Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep`, le contenu des étapes est à remplir entre les balises `<TimelineStep>` et `</TimelineStep>`, tu pourras ainsi inclure des liens ou tout d'autres éléments html. La numérotation se fait automatiquement grâce au CSS inclus dans la feuille de style [timeline](website/src/css/timeline.module.css).
 
