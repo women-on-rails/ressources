@@ -196,3 +196,25 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
 </Timeline>
 ```
 </details>
+
+
+## Créer un Component
+
+  Si tu créées un élément que tu penses seras utile à d'autres endroits du site, tu peux en faire un component qui sera utilisable par d'autres !<br/>
+  Les components sont au format JSX. On te conseille ce [tuto de React](https://fr.reactjs.org/docs/introducing-jsx.html) pour le découvrir.<br/>
+  Tu peux t'inspirer de components présents déjà assez simples comme celui pour les [avatars](https://github.com/women-on-rails/ressources/blob/master/website/src/components/avatar.js).</br>
+  Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
+</details>
+
+Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https://v2.docusaurus.io/docs/markdown-features/#embedding-react-components-with-mdx).
+
+### CSS modules
+
+Pour styler tes components, tu peux utiliser une feuille de style dédiée exclusivement à ton component (elle ne se chargera que si le component est appelé !).
+Pour ce faire :
+1. dans le dossier `website/src/css/`, nomme ta feuille de style avec `.module.css` à la fin (exemple : `nomdemoncomponent.module.css`)
+2. Importe-la en haut de ton fichier : `import styles from nomdemoncomponent.module.css`
+3. Tu peux aussi n'importer que les classes dont tu as besoin : `import { timeline } from '@site/src/css/nomdemoncomponent.module.css';`
+4. Pour l'utiliser dans ton code : `<div className={ styles.step }>`, si tu n'as importé que les classes dont tu avais besoin : `<div className={ timeline }>`
+
+Pour plus d'infos, voici la [doc officielle](https://v2.docusaurus.io/docs/styling-layout/#css-modules)
