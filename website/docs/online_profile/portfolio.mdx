@@ -4,9 +4,42 @@ title: Portfolio
 slug: /portfolio
 ---
 
+import HorizontalCard from '@site/src/components/horizontal_card.js';
+import Avatar from '@site/src/components/avatar.js';
+
 En tant que développeuses et développeurs, montrer ce qu'on sait faire en ligne est important pour valoriser ses compétences techniques, sa curiosité... Mais il faut savoir le mettre en valeur !
 
 Tu peux réaliser ton portfolio si tu as du contenu à montrer (des articles, des projets, une biographie plus longue...), ça peut être aussi un challenge front en le codant.<br/>
-Voici [un repo qui recense de nombreux portfolios](https://github.com/emmabostian/developer-portfolios) pour t'inspirer pour te lancer.<br/><br/>
-En tant que rubyiste, tu peux aussi profiter du [générateur de site statique Jekyll](https://jekyllrb.com/) en format MarkDown et utilisant le moteur de template [liquid](https://github.com/Shopify/liquid/wiki) créé par Shopify.
-[Un exemple de blog qui utilise Jekyll](https://catalinionescu.dev/).
+Voici [un repo qui recense de nombreux portfolios](https://github.com/emmabostian/developer-portfolios) pour t'inspirer pour te lancer.
+
+## Les générateurs de sites statiques
+
+Les générateurs de sites statiques te permettent de rapidement créer un site grâce à un moteur de template intégré. Ils ont également une documentation pour t'aider à créer ton site, le configurer, le remplir et après le déployer.<br/>
+Le site étant statique, tu peux facilement (et gratuitement) le déployer grâce à [GitHub Pages](https://pages.github.com/) ou [Netlify](https://www.netlify.com/).<br/>
+On liste en-dessous des générateurs de sites statiques en Ruby, mais bien sûr il y en a dans d'autres langages. Tu peux trouver une [liste exhausite de générateurs de sites statiques ici](https://jamstack.org/generators/).
+
+<div class="container">
+  <HorizontalCard
+    src='/img/online_profile/portfolio/jekyll.png'
+    alt='Logo Jekyll'
+    href='https://jekyllrb.com/'
+    title='Jekyll'
+    description="Un des générateurs de site statique le plus connu et populaire. Les pages sont en format MarkDown et le moteur de template en Liquid, créé par Shopify."
+  />
+  <HorizontalCard
+    src='/img/online_profile/portfolio/middleman.png'
+    alt='Logo Middleman'
+    href='https://middlemanapp.com/'
+    title='Middleman'
+    description="Second sur le podium, les pages de Middleman sont aux formats erb et haml."
+  />
+  <HorizontalCard
+    src='/img/online_profile/portfolio/nanoc.png'
+    alt='Logo Nanoc'
+    href='https://nanoc.ws/'
+    title='Nanoc'
+    description="Troisième place sur le podium, les pages de Middleman sont aux formats erb et haml."
+  />
+</div><br/>
+
+[Un exemple de blog qui utilise Jekyll](https://catalinionescu.dev/) pour se faire une idée de ce qui est possible.
