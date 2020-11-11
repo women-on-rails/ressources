@@ -2,23 +2,38 @@
 
 ## Qu'est-ce qu'un component ?
 
-Un `component` est un morceau de code réutilisable et indépendant, utilisé principalement en `ReactJS`. Il va nous servir à afficher des éléments tels que des `cards` ou `avatar` avec tout le `markup` nécessaire sans avoir à l'écrire.
+Un `component` en `ReactJS` est un morceau de code réutilisable. Il va nous servir à afficher des éléments tels que des `cards` ou `avatars` avec tout le `markup` nécessaire.
 On utilise la syntaxe `JSX`, très semblable à `javascript` ([Introduction à JSX](https://fr.reactjs.org/docs/introducing-jsx.html)).
 
 Plus d'infos sur les composants de React sur la doc officielle : [Components and props](https://fr.reactjs.org/docs/components-and-props.html)
 
 Docusaurus (le framework faisant tourner ce site) est réalisé en React et de ce fait nous pouvons utiliser des composants dans les fichiers ressources `.mdx` et bien sûr `js`.
 
+Le format `.mdx` va nous permettre d'utiliser à la fois du `markdown` et du `JSX` pour écrire nos articles. Ceux-ci seront plus agréables à lire et plus faciles à éditer.
 Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https://v2.docusaurus.io/docs/markdown-features/#embedding-react-components-with-mdx).
+
+## Comment les utiliser
+
+Pour te servir d'un component, il faut:
+- que le fichier où tu veux l'importer soit au format `.mdx` (il peut être bien sûr au format `.js` si c'est une page autre que ressource)
+- importer le component voulu en haut de ton fichier, comme ça: `import TonComponent from '@site/src/components/ton_component.js';`
+- lui passer les attributs nécessaires
 
 ## Les components de base de Docusaurus
 
+Pour créer des liens internes, Docusaurus dispose d'un component bien utile : le component `<Link />`, il va précharger les liens, pour que les pages s'affichent plus rapidement.
+
+Pour l'utiliser : 
+1. Importe le component en haut de ton fichier `.mdx` ou `.js` : `import Link from '@docusaurus/Link';`
+2. Puis dans ta page : `<Link to="questions-techniques">questions techniques</Link>`, pour l'attribut `to` c'est le `slug` de l'article (on le trouve en haut de la page cible : `slug: /questions-techniques`)
+
+Docusaurus dispose de quelques autres components de base :
+
 * `<Head/>`
-* `<Link/>`
 * `<Redirect/>`
 * `<BrowserOnly/>`
 
-Pour leur usage, tu pourras trouver de la documentation ici (le component [link](https://v2.docusaurus.io/docs/docusaurus-core/#link) sera le plus utile) : [https://v2.docusaurus.io/docs/docusaurus-core#components](https://v2.docusaurus.io/docs/docusaurus-core#components)
+Pour leur usage, tu pourras trouver de la documentation ici : [https://v2.docusaurus.io/docs/docusaurus-core#components](https://v2.docusaurus.io/docs/docusaurus-core#components)
 
 ## Liste des components ajoutés
 
@@ -30,12 +45,6 @@ Nous avons ajouté des components au site au fur et à mesure de nos besoins, il
 * `<HorizontalCard/>` : [website/src/components/horizontal_card.js](website/src/components/horizontal_card.js)
 * `<Timeline/>` et `<TimelineStep/>` : [website/src/components/timeline.js](website/src/components/timeline.js) et [website/src/components/timeline_step.js](website/src/components/timeline_step.js)
 
-## Comment les utiliser
-
-Pour te servir d'un component, il faut:
-- que le fichier où tu veux l'importer soit au format `.mdx` (il peut être bien sûr au format `.js` si c'est une page autre que ressource)
-- importer le component voulu en haut de ton fichier, comme ça: `import TonComponent from '@site/src/components/ton_component.js';`
-- lui passer les attributs nécessaires
 
 <details>
   <summary>
@@ -212,9 +221,9 @@ Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https
 
 Pour styler tes components, tu peux utiliser une feuille de style dédiée exclusivement à ton component (elle ne se chargera que si le component est appelé !).
 Pour ce faire :
-1. dans le dossier `website/src/css/`, nomme ta feuille de style avec `.module.css` à la fin (exemple : `nomdemoncomponent.module.css`)
-2. Importe-la en haut de ton fichier : `import styles from nomdemoncomponent.module.css`
-3. Tu peux aussi n'importer que les classes dont tu as besoin : `import { timeline } from '@site/src/css/nomdemoncomponent.module.css';`
+1. dans le dossier `website/src/css/`, nomme ta feuille de style avec `.module.css` à la fin (exemple : `toncomponent.module.css`)
+2. Importe-la en haut de ton fichier : `import styles from toncomponent.module.css`
+3. Tu peux aussi n'importer que les classes dont tu as besoin : `import { timeline } from '@site/src/css/toncomponent.module.css';`
 4. Pour l'utiliser dans ton code : `<div className={ styles.step }>`, si tu n'as importé que les classes dont tu avais besoin : `<div className={ timeline }>`
 
 Pour plus d'infos, voici la [doc officielle](https://v2.docusaurus.io/docs/styling-layout/#css-modules)
