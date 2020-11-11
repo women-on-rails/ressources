@@ -46,22 +46,6 @@ const siteConfig = {
         src: 'img/favicon.ico',
       },
       items: [
-        {to: 'help', label: 'À propos', position: 'left'},
-        {
-          href: 'https://www.meetup.com/fr-FR/Women-On-Rails/',
-          label: 'Meet-up',
-          position: 'left',
-        },
-        {
-          href: 'https://twitter.com/womenonrails',
-          label: 'Twitter',
-          position: 'left',
-        },
-        {
-          to: 'blog',
-          label: 'Blog',
-          position: 'right', 
-        },
         {to: 'docs', label: 'Ressources', position: 'right'},
         {
           href: 'https://github.com/women-on-rails/ressources',
@@ -77,6 +61,60 @@ const siteConfig = {
     },
 
     footer: {
+      links: [
+        {
+          title: 'Nos ressources',
+          items: [
+            {
+              label: 'Introduction',
+              to: '/docs',
+            },
+            {
+              label: 'Comment contribuer',
+              to: '/docs/comment-contribuer',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/women-on-rails/ressources',
+            }
+          ],
+        },
+        {
+          title: 'Le réseau',
+          items: [
+            {
+              label: 'Qui sommes-nous ?',
+              to: 'help',
+            }
+          ],
+        },
+        {
+          title: 'Nos publications',
+          items: [
+            {
+              label: 'Newsletter',
+              to: 'newsletter',
+            },
+            {
+              label: 'Blog',
+              to: 'blog',
+            }
+          ],
+        },
+        {
+          title: 'Communauté',
+          items: [
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/womenonrails',
+            },
+            {
+              label: 'Meet-up',
+              href: 'https://www.meetup.com/fr-FR/Women-On-Rails/',
+            }
+          ],
+        }
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Women On Rails. Réalisé avec Docusaurus.`,
     },
     sidebarCollapsible: true,
