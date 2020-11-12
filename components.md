@@ -5,7 +5,7 @@
 Un `component` en ReactJS est un morceau de code réutilisable. Il va nous servir à afficher des éléments tels que des `cards` ou `avatars` avec tout le `markup` nécessaire.
 On utilise la syntaxe `JSX`, très semblable à `javascript`.
 
-:arrow_forward: Une petite [Introduction à JSX](https://fr.reactjs.org/docs/introducing-jsx.html)
+:arrow_forward: Une petite [Introduction à JSX](https://fr.reactjs.org/docs/introducing-jsx.html)  
 :arrow_forward: Plus d'infos sur les composants de React sur la doc officielle : [Components and props](https://fr.reactjs.org/docs/components-and-props.html)
 
 Docusaurus (le framework faisant tourner ce site) est réalisé en React et de ce fait nous pouvons utiliser des composants dans les fichiers ressources `.mdx` et bien sûr `js`.
@@ -227,4 +227,4 @@ Pour ce faire :
 3. Tu peux aussi n'importer que les classes dont tu as besoin : `import { timeline } from '@site/src/css/toncomponent.module.css';`
 4. Pour l'utiliser dans ton code : `<div className={ styles.step }>`, si tu n'as importé que les classes dont tu avais besoin : `<div className={ timeline }>`
 
-Pour plus d'infos sur les modules CSS, voici la [doc officielle](https://v2.docusaurus.io/docs/styling-layout/#css-modules).
+:arrow_forward: Pour plus d'infos sur les modules CSS, voici la [doc officielle](https://v2.docusaurus.io/docs/styling-layout/#css-modules).
