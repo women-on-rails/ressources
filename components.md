@@ -2,10 +2,11 @@
 
 ## Qu'est-ce qu'un component ?
 
-Un `component` en `ReactJS` est un morceau de code réutilisable. Il va nous servir à afficher des éléments tels que des `cards` ou `avatars` avec tout le `markup` nécessaire.
-On utilise la syntaxe `JSX`, très semblable à `javascript` ([Introduction à JSX](https://fr.reactjs.org/docs/introducing-jsx.html)).
+Un `component` en ReactJS est un morceau de code réutilisable. Il va nous servir à afficher des éléments tels que des `cards` ou `avatars` avec tout le `markup` nécessaire.
+On utilise la syntaxe `JSX`, très semblable à `javascript`.
 
-Plus d'infos sur les composants de React sur la doc officielle : [Components and props](https://fr.reactjs.org/docs/components-and-props.html)
+:arrow_forward: Une petite [Introduction à JSX](https://fr.reactjs.org/docs/introducing-jsx.html)
+:arrow_forward: Plus d'infos sur les composants de React sur la doc officielle : [Components and props](https://fr.reactjs.org/docs/components-and-props.html)
 
 Docusaurus (le framework faisant tourner ce site) est réalisé en React et de ce fait nous pouvons utiliser des composants dans les fichiers ressources `.mdx` et bien sûr `js`.
 
@@ -33,11 +34,11 @@ Docusaurus dispose de quelques autres components de base :
 * `<Redirect/>`
 * `<BrowserOnly/>`
 
-Pour leur usage, tu pourras trouver de la documentation ici : [https://v2.docusaurus.io/docs/docusaurus-core#components](https://v2.docusaurus.io/docs/docusaurus-core#components)
+:arrow_forward: Pour leur usage, tu pourras trouver de la documentation [sur la doc de Docusaurus](https://v2.docusaurus.io/docs/docusaurus-core#components)
 
 ## Liste des components ajoutés
 
-Nous avons ajouté des components au site au fur et à mesure de nos besoins, ils se trouvent dans le dossier `website/src/components`
+Nous avons ajouté des components au site au fur et à mesure de nos besoins, ils se trouvent dans le dossier `website/src/components/`
 
 * `<Avatar/>` : [website/src/components/avatar.js](website/src/components/avatar.js)
 * `<BlogCard/>` : [website/src/components/blog_card.js](website/src/components/blog_card.js)
@@ -212,7 +213,7 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
   Si tu créées un élément que tu penses seras utile à d'autres endroits du site, tu peux en faire un component qui sera utilisable par d'autres !<br/>
   Les components sont au format JSX. On te conseille ce [tuto de React](https://fr.reactjs.org/docs/introducing-jsx.html) pour le découvrir.<br/>
   Tu peux t'inspirer de components présents déjà assez simples comme celui pour les [avatars](https://github.com/women-on-rails/ressources/blob/master/website/src/components/avatar.js).</br>
-  Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
+:bulb: Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
 </details>
 
 Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https://v2.docusaurus.io/docs/markdown-features/#embedding-react-components-with-mdx).
