@@ -17,7 +17,7 @@ Les tests peuvent prendre plusieurs formes:
 ### Checklist pour faire la différence
 |  | À faire |
 | --- | --- |
-| ✅ | Organiser son code: essayer de donner des noms signifiants aux variables, extraire dans des méthodes quand c’est pertinent, ou dans des classes. |
+| ✅ | Organiser son code: essayer de donner des noms de variables significatifs, extraire dans des méthodes quand c’est pertinent, ou dans des classes. |
 | ✅ | Laisser les contrôleurs aussi propres que possible. |
 | ✅ | Tester ce qui est vraiment critique. |
 | ✅ | Coder pour que le code soit facilement compréhensible par d’autres. |
