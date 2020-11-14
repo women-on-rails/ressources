@@ -1,7 +1,7 @@
 ---
 id: technical-questions
 title: Questions techniques
-slug: /questions-techniques
+slug: /trouver-un-job/questions-techniques
 keywords:
 - tests techniques recrutement
 - tests techniques
