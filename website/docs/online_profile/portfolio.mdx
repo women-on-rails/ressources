@@ -1,24 +1,43 @@
 ---
 id: portfolio
-title: Portfolio
+sidebar_label: Portfolio
+title: Comment faire un portfolio
 slug: /portfolio
+keywords:
+  -	développeur web portfolio
+  - portfolio développeur web junior
+  - portfolio développeur
+  - comment créer un site statique
+  -	comment faire un site web
+  - faire un site wordpress
+  - creer un site web
+  - création de site web gratuit
+  - création site internet gratuit
+  - créer son site web
+description: "Comment faire son portfolio de développeur ou développeuse en ligne"
 ---
 
 import HorizontalCard from '@site/src/components/horizontal_card.js';
 import Avatar from '@site/src/components/avatar.js';
 
-En tant que développeuses et développeurs, montrer ce qu'on sait faire en ligne est important pour valoriser ses compétences techniques, sa curiosité... Mais il faut savoir le mettre en valeur !
-
-Tu peux réaliser ton portfolio si tu as du contenu à montrer (des articles, des projets, une biographie plus longue...), ça peut être aussi un challenge front en le codant.<br/>
+Tu peux réaliser ton portfolio pour valoriser tes compétences techniques, de design ou ta curiosité.
+C'est un moyen de regrouper au même endroit ce que tu produits en ligne: tes articles, tes projets web... Ça peut être aussi un challenge front en le codant.<br/>
 Voici [un repo qui recense de nombreux portfolios](https://github.com/emmabostian/developer-portfolios) pour t'inspirer pour te lancer.
 
-## Les générateurs de sites statiques
+## Faire son site avec un générateur de site statique
 
-Les générateurs de sites statiques te permettent de rapidement créer un site grâce à un moteur de template intégré.
-Tu n'as qu'à te préoccuper d'écrire ton contenu et de styliser ta mise en page. La configuration est déjà faite pour les routes, le rendu des pages, etc.<br/>
-Les plus connus ont une bonne documentation pour t'aider à créer ton site, le remplir et après le déployer. Ils ont aussi une communauté active pour demander de l'aide !<br/>
+### Qu'est-ce qu'un générateur de site statique ?
+
+Les générateurs de sites statiques te permettent de rapidement créer un site grâce à un moteur de template intégré. Le moteur de template se charge de transformer la page en HTML.<br/>
+Un peu de configuration est requise, mais sinon tu n'as qu'à te préoccuper d'écrire ton contenu et de styliser ton site.<br/>
+Pour ce qui est du markup (langage de balisage), plusieurs sont possibles selon les générateurs, mais tous comprennent le format MarkDown (`.md`).<br/> 
+Les plus connus ont une bonne documentation pour t'aider à créer ton site, le configurer et après le déployer. Ils ont aussi une communauté active pour demander de l'aide !<br/>
 Le site étant statique, tu peux facilement (et gratuitement) le déployer grâce à [GitHub Pages](https://pages.github.com/) ou [Netlify](https://www.netlify.com/).<br/>
-On liste en-dessous des générateurs de sites statiques en Ruby, mais bien sûr il y en a dans d'autres langages. Tu peux trouver une [liste exhaustive de générateurs de sites statiques ici](https://jamstack.org/generators/).
+
+### Des générateurs de sites statiques en Ruby
+
+Comme un peu de configuration est nécessaire, c'est plus pratique de connaître le langage utilisé par le générateur.
+On liste des générateurs de sites statiques en Ruby, mais bien sûr il y en a dans d'autres langages. Tu peux trouver une [liste exhaustive de générateurs de sites statiques ici](https://jamstack.org/generators/).
 
 <div class="container">
   <HorizontalCard
@@ -26,27 +45,29 @@ On liste en-dessous des générateurs de sites statiques en Ruby, mais bien sûr
     alt='Logo Jekyll'
     href='https://jekyllrb.com/'
     title='Jekyll'
-    description="Un des générateurs de site statique le plus connu et populaire. Les pages sont en format MarkDown et le moteur de template en Liquid, créé par Shopify."
+    description="Un des générateurs de site statique le plus connu et populaire. Le moteur de template en Liquid, créé par Shopify."
   />
   <HorizontalCard
     src='/img/online_profile/portfolio/middleman.png'
     alt='Logo Middleman'
     href='https://middlemanapp.com/'
     title='Middleman'
-    description="Second sur le podium, les pages de Middleman sont aux formats erb et haml. Le CSS est en sass."
+    description="Second sur le podium, Middleman donne l'option de plusieurs moteurs de template (dont liquid, erb et haml). Le CSS est en sass."
   />
   <HorizontalCard
     src='/img/online_profile/portfolio/nanoc.png'
     alt='Logo Nanoc'
     href='https://nanoc.ws/'
     title='Nanoc'
-    description="Moins populaire que les deux précédents, Nanoc tient tout de même la troisième place sur le podium. Comme Middleman, les pages sont aux formats erb et haml."
+    description="Moins populaire que les deux précédents, Nanoc tient tout de même la troisième place sur le podium. Comme Middleman, il y a plusieurs moteurs de template (dont erb et haml)."
+  />
+  <HorizontalCard
+    src='/img/online_profile/portfolio/bridgetown.jpeg'
+    alt='Logo Bridgetown'
+    href='https://www.bridgetownrb.com/'
+    title='Bridgetown'
+    description="Bridgetown a une communauté moins importante que les trois précédents, mais elle est tout de même active et le projet est maintenu. Il laisse le choix entre erb ou liquid en moteur de template."
   />
 </div><br/>
 
 [Un exemple de blog qui utilise Jekyll](https://catalinionescu.dev/) pour se faire une idée de ce qui est possible.
-
-## Les CMS
-
-Il y a bien sûr ce bon vieux [WordPress](https://fr.wordpress.com/) et le (pas si vieux) [SquareSpace](https://fr.squarespace.com/).<br/>
-Si tu préfères une option open-source, il y a également [NetlifyCMS](https://www.netlifycms.org/) dans le game, où tu peux [générer un site avec un template](https://www.netlifycms.org/docs/start-with-a-template/).
