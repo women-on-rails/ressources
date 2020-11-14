@@ -2,6 +2,11 @@
 id: interview-types
 title: Les types de tests techniques
 slug: /les-types-de-tests-techniques
+keywords:
+- développeur web junior
+- tests techniques recrutement
+- tests techniques
+description: "Les différents types de tests techniques en recrutement web."
 ---
 
 Lorsqu'on candidate à une offre, les entreprises font passer des tests techniques, qui peuvent être de différents formes.<br/>
