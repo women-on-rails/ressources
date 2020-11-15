@@ -211,8 +211,7 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
 ## Créer un Component
 
   Si tu créées un élément que tu penses seras utile à d'autres endroits du site, tu peux en faire un component qui sera utilisable par d'autres !<br/>
-  Les components sont au format JSX. On te conseille ce [tuto de React](https://fr.reactjs.org/docs/introducing-jsx.html) pour le découvrir.<br/>
-  Tu peux t'inspirer de components présents déjà assez simples comme celui pour les [avatars](https://github.com/women-on-rails/ressources/blob/master/website/src/components/avatar.js).</br>
+  Tu peux t'inspirer de components présents déjà assez simples comme celui pour les [avatars](https://github.com/women-on-rails/ressources/blob/master/website/src/components/avatar.js) vu plus haut.</br>
 :bulb: Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
 </details>
 
