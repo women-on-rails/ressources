@@ -8,7 +8,7 @@ On utilise la syntaxe `JSX`, très semblable à `javascript`.
 :arrow_forward: Une petite [Introduction à JSX](https://fr.reactjs.org/docs/introducing-jsx.html)  
 :arrow_forward: Plus d'infos sur les composants de React sur la doc officielle : [Components and props](https://fr.reactjs.org/docs/components-and-props.html)
 
-Docusaurus (le framework faisant tourner ce site) est réalisé en React et de ce fait nous pouvons utiliser des composants dans les fichiers ressources `.mdx` et bien sûr `js`.
+Docusaurus (le framework faisant tourner ce site) est réalisé en React et de ce fait nous pouvons utiliser des composants dans les fichiers ressources `.mdx` et bien sûr `.js`.
 
 Le format `.mdx` va nous permettre d'utiliser à la fois du `markdown` et du `JSX` pour écrire nos articles. Ceux-ci seront plus agréables à lire et plus faciles à éditer.
 Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https://v2.docusaurus.io/docs/markdown-features/#embedding-react-components-with-mdx).
