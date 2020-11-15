@@ -212,7 +212,7 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
 
   Si tu créées un élément que tu penses seras utile à d'autres endroits du site, tu peux en faire un component qui sera utilisable par d'autres !<br/>
   Tu peux t'inspirer de components présents déjà assez simples comme celui pour les [avatars](https://github.com/women-on-rails/ressources/blob/master/website/src/components/avatar.js) vu plus haut.</br>
-:bulb: Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
+:bulb: Petit tip: n'oublie pas `import React from 'react';` au début du fichier de ton component.
 </details>
 
 
