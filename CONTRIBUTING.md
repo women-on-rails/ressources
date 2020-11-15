@@ -316,39 +316,10 @@ Tu peux directement ajouter du html dans les fichiers au format `.md` ou `mdx`.<
 On utilise le thème d'[Infima](https://facebookincubator.github.io/infima/docs/getting-started/introduction), ils ont déjà un [système de grid](https://facebookincubator.github.io/infima/docs/layout/grid) défini et [de nombreux éléments et classes css](https://facebookincubator.github.io/infima/docs/components/alert).
 
 ## Les components js et le format .mdx
-<details>
-  <summary>Utiliser un component existant
-  </summary>
 
-  Dans le dossier `website/src/components` on définit de nombreux components pour harmoniser la mise en page sur le site.<br/>
-  Pour te servir d'un component, il faut:
-  - que le fichier où tu veux l'importer soit au format `.mdx` (il peut être bien sûr au format `.js` si c'est une page autre que ressource)
-  - importer le component voulu en haut de ton fichier, comme ça: `import TonComponent from '@site/src/components/ton_component.js';`
-  - lui passer les attributs nécessaires
+Pour tout ce qui concerne les components, nous avons créé une documentation où sont listés tous les components disponibles, comment les utiliser et comment en créer :
 
-Un exemple d'utilisation du component HorizontalCard:
-```jsx
-<HorizontalCard src='/img/find_a_job/katas/codewars.jpeg'
-  alt='Logo Codewars'
-  href='https://www.codewars.com/'
-  title='Codewars'
-  description="Sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition. Chaque kata a un espace de discussion où tu peux commenter, aider ou être aidé.e."
-/>
-```
-
-</details>
-
-<details>
-  <summary>Créer ton propre component
-  </summary>
-
-  Si tu créées un élément que tu penses seras utile à d'autres endroits du site, tu peux en faire un component qui sera utilisable par d'autres !<br/>
-  Les components sont au format JSX. On te conseille ce [tuto de React](https://fr.reactjs.org/docs/introducing-jsx.html) pour le découvrir.<br/>
-  Tu peux t'inspirer de components présents déjà assez simples comme celui pour les [avatars](https://github.com/women-on-rails/ressources/blob/master/website/src/components/avatar.js).</br>
-  Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
-</details>
-
-Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https://v2.docusaurus.io/docs/markdown-features/#embedding-react-components-with-mdx).
+:arrow_forward: [Documentation sur les components](components.md)
 
 ## La documentation officielle de Docusaurus
 Docusaurus a une [documentation très détaillée](https://v2.docusaurus.io/docs/2.0.0-alpha.65/) pour tout ce qui est création de page, ajout de style... N'hésite pas à t'y référer, en particulier la section [Guides](https://v2.docusaurus.io/docs/2.0.0-alpha.65/creating-pages).<br/>
