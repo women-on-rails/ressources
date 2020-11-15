@@ -216,7 +216,6 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
 :bulb: Petit tip: n'oublie pas `import React from 'react';` au début du fichier.
 </details>
 
-Pour en savoir plus sur le format `.mdx`, tu peux te référer à la [doc](https://v2.docusaurus.io/docs/markdown-features/#embedding-react-components-with-mdx).
 
 ### CSS modules
 
