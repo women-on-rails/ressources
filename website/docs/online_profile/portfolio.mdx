@@ -1,0 +1,138 @@
+---
+id: portfolio
+sidebar_label: Portfolio
+title: Comment faire un portfolio
+slug: /faire-son-profil-en-ligne/portfolio
+keywords:
+  -	développeur web portfolio
+  - portfolio développeur web junior
+  - portfolio développeur
+  - portfolio en ligne
+  - comment créer un site statique
+  -	comment faire un site web
+  - faire un site wordpress
+  - creer un site web
+  - création de site web gratuit
+  - création site internet gratuit
+  - créer son site web
+  - design portfolio web
+description: "Comment faire son portfolio de développeur ou développeuse en ligne."
+---
+
+import HorizontalCard from '@site/src/components/horizontal_card.js';
+import Avatar from '@site/src/components/avatar.js';
+
+Tu peux réaliser ton portfolio pour valoriser tes compétences techniques, de design ou ta curiosité.
+C'est un moyen de regrouper au même endroit ce que tu produis en ligne: tes articles, tes projets web... Ça peut être aussi un challenge front en le codant.<br/>
+Voici [un repo qui recense de nombreux portfolios](https://github.com/emmabostian/developer-portfolios) pour t'inspirer pour te lancer.
+
+## Faire son site avec un générateur de site statique
+
+### Qu'est-ce qu'un générateur de site statique ?
+
+Les générateurs de sites statiques te permettent de rapidement créer un site grâce à un moteur de template intégré. Le moteur de template se charge de transformer la page en HTML.
+Pour ce qui est du markup (langage de balisage), plusieurs sont possibles selon les générateurs, mais tous comprennent le format MarkDown (`.md`).
+Le site étant statique, tu peux facilement (et gratuitement) le déployer grâce à [GitHub Pages](https://pages.github.com/), [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) ou [Netlify](https://www.netlify.com/).<br/>
+Un peu de configuration est requise, mais sinon tu n'as qu'à te préoccuper d'écrire ton contenu et de styliser ton site.
+
+Les plus connus ont une bonne documentation pour t'aider à créer ton site, le configurer et après le déployer. Ils ont aussi une communauté active pour demander de l'aide !<br/>
+
+### Des générateurs de sites statiques en Ruby
+
+Comme un peu de configuration est nécessaire, c'est plus pratique de connaître le langage utilisé par le générateur.
+On liste des générateurs de sites statiques en Ruby, mais bien sûr il y en a dans d'autres langages. Tu peux trouver une [liste exhaustive de générateurs de sites statiques ici](https://jamstack.org/generators/).
+
+<div class="container">
+  <HorizontalCard
+    src='/img/online_profile/portfolio/jekyll.png'
+    alt='Logo Jekyll'
+    href='https://jekyllrb.com/'
+    title='Jekyll'
+    description="Un des générateurs de site statique le plus connu et populaire. Le moteur de template en Liquid, créé par Shopify."
+  />
+  <HorizontalCard
+    src='/img/online_profile/portfolio/middleman.png'
+    alt='Logo Middleman'
+    href='https://middlemanapp.com/'
+    title='Middleman'
+    description="Second sur le podium, Middleman donne l'option de plusieurs moteurs de template (dont liquid, erb et haml). Le CSS est en sass."
+  />
+  <HorizontalCard
+    src='/img/online_profile/portfolio/nanoc.png'
+    alt='Logo Nanoc'
+    href='https://nanoc.ws/'
+    title='Nanoc'
+    description="Moins populaire que les deux précédents, Nanoc tient tout de même la troisième place sur le podium. Comme Middleman, il y a plusieurs moteurs de template (dont erb et haml)."
+  />
+  <HorizontalCard
+    src='/img/online_profile/portfolio/bridgetown.jpeg'
+    alt='Logo Bridgetown'
+    href='https://www.bridgetownrb.com/'
+    title='Bridgetown'
+    description="Bridgetown a une communauté moins importante que les trois précédents, mais elle est tout de même active et le projet est maintenu. Il laisse le choix entre erb ou liquid en moteur de template."
+  />
+</div><br/>
+
+[Un exemple de blog qui utilise Jekyll](https://catalinionescu.dev/) pour se faire une idée de ce qui est possible.
+
+## Éditer son site avec un headless CMS
+
+Les **CMS** (Content Management System ou Système de gestion de contenu) comme Wordpress ou Squarespace sont bien connus maintenant.
+
+Les **headless CMS** sont des services qui te permettent d'ajouter une interface web d'administration afin de gérer les contenus de ton site.
+C'est un peu la cerise sur le cupcake (🧁🍒) si tu ne veux pas modifier tes fichiers de ton éditeur de texte mais en ligne.<br/>
+"Headless" fait référence à l'idée que ces services gèrent uniquement le contenu, te laissant le choix en tant que développeuse ou développeur de déterminer comment tu vas construire ton site et l'héberger.
+
+Il y a deux types d'headless CMS:
+- ceux basés sur une API (**API Driven**), où on récupère le contenu par une API
+- ceux basés sur git (**git-based**), où les fichiers sont enregistrés dans un dépôt git et du coup en arrière-plan chaque modification crée un commit dans le repo
+
+Comme on l'a listé au-dessus, voici deux headless CMS qui ont un support avancé pour Jekyll, tous les deux git-based:
+<div class="container">
+  <div class="row">
+    <div class="col col--4">
+      <Avatar
+        src='/img/online_profile/portfolio/jekyll_admin.png'
+        alt='Logo Jekyll'
+        href='https://jekyll.github.io/jekyll-admin/'
+        title='Jekyll Admin'
+      />
+    </div>
+    <div class="col col--4">
+      <Avatar
+        src='/img/online_profile/portfolio/prose_io.png'
+        alt='Logo Prose.io'
+        href='https://github.com/prose/prose'
+        title='Prose.io'
+      />
+    </div>
+  </div>
+</div><br/>
+
+Tu peux trouver une [liste de nombreux headless CMS ici](https://jamstack.org/headless-cms/) et une liste de [headless CMS avec des plans gratuits pour développeuses ou développeurs ici](https://github.com/ripienaar/free-for-dev#cms).<br/>
+Si tu veux commencer avec un template, on a sélectionné deux headless CMS en open-source, git-based, qui en fournissent:
+<div class="container">
+  <div class="row">
+    <div class="col col--4">
+      <Avatar
+        src='/img/online_profile/portfolio/forestry.png'
+        alt='Logo Forestry'
+        href='https://forestry.io/starters/'
+        title='Forestry'
+      />
+    </div>
+    <div class="col col--4">
+      <Avatar
+        src='/img/online_profile/portfolio/netlify_cms.jpeg'
+        alt='Logo NetlifyCMS'
+        href='https://www.netlifycms.org/docs/start-with-a-template/'
+        title='NetlifyCMS'
+      />
+    </div>
+  </div>
+</div><br/>
+
+:::info Ressource pour cette page
+La combinaison d'un générateur de site statique et d'un headless CMS fait partie d'une nouvelle architecture de code, la JAMstack.
+Si tu veux en savoir plus, tu peux lire le chapitre 4 du livre [Modern Web Development on the JAMstack](https://www.netlify.com/pdf/oreilly-modern-web-development-on-the-jamstack.pdf).
+:::

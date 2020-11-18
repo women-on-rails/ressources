@@ -1,7 +1,11 @@
 ---
 id: technical-questions
 title: Questions techniques
-slug: /questions-techniques
+slug: /trouver-un-job/questions-techniques
+keywords:
+- tests techniques recrutement
+- tests techniques
+description: "Les questions techniques qui peuvent être posées lors d'un entretien pour un poste en développement web Ruby on Rails."
 ---
 
 Au-delà des challenges techniques, on peut te poser des questions de pures connaissances techniques.<br/>
