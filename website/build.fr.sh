@@ -7,8 +7,8 @@ mv build /tmp/docusaurus-build
 cd ..
 git checkout gh-pages
 rm -rf *
-ga .
 y
+ga .
 git commit -m "Clean branch"
 mv /tmp/docusaurus-build/* ./
 mv build/* ./
