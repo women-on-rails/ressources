@@ -11,7 +11,7 @@ ga .
 y
 git commit -m "Clean branch"
 mv /tmp/docusaurus-build/* ./
-mb build/* ./
+mv build/* ./
 rm -rf build
 for FILE in $(find . -iname '*.html'); do
   sed -i '' 's/lang="en"/lang="fr"/g' $FILE
