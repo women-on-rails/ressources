@@ -17,6 +17,7 @@ const siteConfig = {
   organizationName: 'women-on-rails',
   favicon: 'img/favicon.ico',
   scripts: ['https://buttons.github.io/buttons.js'],
+  plugins: ['@docusaurus/plugin-google-gtag'],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -39,8 +40,8 @@ const siteConfig = {
   ],
 
   themeConfig: {
-    googleAnalytics: {
-      trackingID: '253779937',
+    gtag: {
+      trackingID: 'G-F601H524WJ',
       anonymizeIP: true,
     },
     navbar: {
