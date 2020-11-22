@@ -20,3 +20,4 @@ git add .
 git commit -m "Build $(date +"%D %T")"
 git push
 git checkout master
+cd ..
