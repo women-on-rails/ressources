@@ -6,8 +6,13 @@ yarn build
 mv build /tmp/docusaurus-build
 cd ..
 git checkout gh-pages
-rm -rf website
+rm -rf *
+ga .
+y
+git commit -m "Clean branch"
 mv /tmp/docusaurus-build/* ./
+mb build/* ./
+rm -rf build
 for FILE in $(find . -iname '*.html'); do
   sed -i '' 's/lang="en"/lang="fr"/g' $FILE
 done
