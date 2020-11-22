@@ -17,7 +17,6 @@ const siteConfig = {
   organizationName: 'women-on-rails',
   favicon: 'img/favicon.ico',
   scripts: ['https://buttons.github.io/buttons.js'],
-  plugins: ['@docusaurus/plugin-google-gtag'],
   presets: [
     [
       '@docusaurus/preset-classic',
