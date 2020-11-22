@@ -40,7 +40,7 @@ const siteConfig = {
 
   themeConfig: {
     gtag: {
-      trackingID: 'G-F601H524WJ',
+      trackingID: 'G-7RTF3NLPZ0',
       anonymizeIP: true,
     },
     navbar: {
