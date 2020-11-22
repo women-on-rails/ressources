@@ -39,8 +39,8 @@ const siteConfig = {
   ],
 
   themeConfig: {
-    googleAnalytics: {
-      trackingID: '253779937',
+    gtag: {
+      trackingID: 'G-F601H524WJ',
       anonymizeIP: true,
     },
     navbar: {
