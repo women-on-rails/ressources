@@ -4,6 +4,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import styles from '@site/src/css/newsletter.module.css';
+import Blockquote from '@site/src/components/blockquote.js';
+import NewsletterCard from '@site/src/components/newsletter_card';
 
 const MyPage = () => {
   const {siteConfig} = useDocusaurusContext();
@@ -40,63 +42,81 @@ const MyPage = () => {
       </div>
 
       <div className="hero">
-        <div className="container container--centered">
+        <div className={ 'container container--centered' + ' ' + styles.bgGreen + ' ' + styles.roundedCorner }>
           <div>
-            <h2 className="hero__title--middle">Ce que tu obtiens avec la newsletter</h2>
-            <ul className={ styles.newsletterList }>
-              <li>Une édition bimensuelle les mardis directement dans ta boîte mail</li>
-              <li>Les dernières infos sur Ruby et Rails</li>
-              <li>L’actualité web autour du langage et du framework</li>
-              <li>Des ressources soigneusement sélectionnées pour aller plus loin</li>
-              <li>Une dose d’inspiration</li>
-              <li>Des nouvelles de notre réseau</li>
-              <li>Tout ça dans un temps de lecture moyen de 5 minutes</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div className="hero ">
-        <div className="container container--centered">
-          <div class="row">
-            <div class="col col-4 pt-1">
-              <h2 className="hero__title--middle">Retrouve l'actualité essentielle</h2>
-              <p className="m-0">Le web, on adore parce que les possibilités sont infinies.
-                Il y a toujours quelques choses de nouveau à découvrir, à tester ou à apprendre.
-              </p>
-              <p className="m-0">
-                Mais où suivre tout ça ?
-                Twitter est un flux continu d'infos, il y a des milliers d'articles et de tutos à lire, les vidéos durent 1 heure.
-              </p>
-              <p className="m-0"><b>Dans cette newsletter, l'info est déjà traitée et condensée.</b></p>
+            <h2 className="hero__title--middle text--center pt-1">- Pour chaque édition -</h2>
+            <div className="row">
+              <div className="col col--4">
+                <div className={styles.emoji + ' ' + styles.gem}></div><h3>Du Ruby et du Rails</h3>
+                <p>Avec Ruby 3 et Rails 6, il y a de nouvelles perspectives pour ce framework, reste au courant des dernières évolutions</p>
+              </div>
+              <div className="col col--4">
+                <div className={styles.emoji + ' ' + styles.web}></div><h3>L'actualité web</h3>
+                <p>Une ouverture sur des sujets techs généraux, que ce soit les outils ou les pratiques qui ont fait parler d'eux</p>
+              </div>
+              <div className="col col--4">
+                <div className={styles.emoji + ' ' + styles.seeding}></div><h3>De l'inclusivité</h3>
+                <p>Si tu penses que chacun à sa place dans la tech et qu'il faut faire bouger les choses pour avoir plus de diversités</p>
+              </div>
             </div>
-            <div class="col col-4 pt-1">
-              <h2 className="hero__title--middle">Ressors informé·e de ta lecture</h2>
-              <p className="m-0">
-                Cette newsletter, c'est pour te donner les outils pour progresser, améliorer ton code et tes pratiques.
-                Elle est là aussi pour t'inspirer avec des projets qui donnent des idées pour te lancer et développer les tiens.
-              </p>
-              <p className="m-0">
-                Le but ce n'est pas que tu dises: "oh la la trop de choses à voir", mais que tu aies <b>les ressources nécessaires pour creuser les sujets qui t'intéressent</b>.
-              </p>
+            <div className="row">
+              <div className="col col--4">
+                <div className={styles.emoji + ' ' + styles.monocle}></div><h3>De la sélection</h3>
+                <p>Fini une liste interminable de tutos, de liens vidéos, à la place quelques lectures clés</p>
+              </div>
+              <div className="col col--4">
+                <div className={styles.emoji + ' ' + styles.sparkles}></div><h3>De l'inspiration</h3>
+                <p>Des ressources soigneusement sélectionnées pour aller plus loin</p>
+              </div>
+              <div className="col col--4">
+                <div className={styles.emoji + ' ' + styles.timer}></div><h3>De l'efficacité</h3>
+                <p>Tout ça dans un temps de lecture moyen de 5 minutes</p>
+              </div>
             </div>
+            
           </div>
         </div>
       </div>
 
       <div className="hero">
         <div className="container container--centered">
-          <h2 className="hero__title--middle">Lire les précédentes éditions</h2>
-          <p>13 novembre 2020 | <a target="_blank" href="https://womenonrails.substack.com/p/post-mortem-hacktoberfest-women-make-spa-games">👻 Post-mortem, Hacktoberfest, Women Make, l'avenir des SPAs et des jeux</a></p>
+          <h2 className="hero__title--middle">Lire les précédentes newsletters</h2>
+          <div className="row">
+            <div className="col col--4">
+              <NewsletterCard
+                title="💎 RubyConf 2020, Rails 6.1 RC1, serverless vs Rails, du pixel (pas) perfect, un problème et We Can Code"
+                date="17 novembre 2020"
+                href="https://womenonrails.substack.com/p/-rubyconf-2020-rails-61-rc1-serverless"
+              />
+            </div>
+            <div className="col col--4">
+              <NewsletterCard
+                title="👻 Post-mortem, Hacktoberfest, Women Make, l'avenir des SPAs et des jeux"
+                date="3 novembre 2020"
+                href="https://womenonrails.substack.com/p/post-mortem-hacktoberfest-women-make-spa-games"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="hero">
         <div className="container container--centered">
           <h2 className="hero__title--middle">On en parle</h2>
-          <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Je viens de recevoir la première newsletter de <a href="https://twitter.com/womenonrails?ref_src=twsrc%5Etfw">@womenonrails</a> ! Super travail 👏👏👏Je conseille pour les débutantes, un bon moyen de se tenir au courant de ce qui se passe dans la communauté Ruby et Rails. En français !</p>&mdash; Little Cheung (<a href='https://twitter.com/Ynote_hk'>@Ynote_hk</a>)<p><a href="https://twitter.com/Ynote_hk/status/1323910274848563205?ref_src=twsrc%5Etfw">Voir le tweet</a></p></blockquote>
-          <blockquote><p>J'ai beaucoup aimé ce premier opus de la newsletter de WoR ! Le ton est pas impersonnel comme dans la plupart des autres newsletters, ça se lit bien. Les inserts sous chaque section la rendent encore plus humaine/perso.</p>&mdash; Lucien, étudiant à 42 (<a href='https://twitter.com/Crysicia'>@Crysicia</a>)</blockquote>
-          <div>
+          <Blockquote
+            text="J'ai beaucoup aimé ce premier opus de la newsletter de WoR ! Le ton est pas impersonnel comme dans la plupart des autres newsletters, ça se lit bien. Les inserts sous chaque section la rendent encore plus humaine/perso."
+            author="Lucien, étudiant à 42"
+            href='https://twitter.com/Crysicia'
+            handle="@Crysicia"
+          />
+          <div className="mt-4"/>
+          <Blockquote
+            text="Je viens de recevoir la première newsletter de @womenonrails ! Super travail 👏👏👏Je conseille pour les débutantes, un bon moyen de se tenir au courant de ce qui se passe dans la communauté Ruby et Rails. En français !"
+            author="Little Cheung"
+            href='https://twitter.com/Ynote_hk'
+            handle="@Ynote_hk"
+          />
+          <div className="mt-4">
             <iframe 
               src='https://womenonrails.substack.com/embed'
               frameborder='0'

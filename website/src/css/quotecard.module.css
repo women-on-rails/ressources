@@ -1,0 +1,53 @@
+.quotecard {
+  background: #fff;
+  color: #222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 12px 12px 2px 1px var(--ifm-color-primary-lightest);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+  
+.quotecard p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+  
+.quotecard cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  opacity: 0.8;
+}
+  
+.quotecard:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  /*
+  color: rgba($defaultSecondaryTextColor, 0.8);
+  */
+  font-weight: normal;
+}
+  
+.quotecard:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  /*
+  color: rgba($defaultSecondaryTextColor, 0.8);
+  */
+  font-weight: normal;
+}
