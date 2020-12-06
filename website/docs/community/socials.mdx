@@ -5,13 +5,29 @@ slug: /reseau
 ---
 
 import HorizontalCard from '@site/src/components/horizontal_card.js';
+import MeetingCard from '@site/src/components/meeting_card.js';
 
 ## Les meet-ups
 
-| Meet-up                                                                  | Quand                               | Description                                                                                                                                                                                                                                                                                                  |
-| ------------------------------------------------------------------------ | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Paris Ruby Workshop](https://www.meetup.com/fr-FR/Paris-Ruby-Workshop/) | Le deuxième mercredi de chaque mois | Le Paris Ruby Workshop est un meetup technique pour accueillir les nouveaux venus dans la communauté ruby de Paris et permettre aux développeurs d’échanger et d’apprendre. Venez pairer sur des kata ou du code open source ruby !                                                                          |
-| [Paris.rb](https://www.meetup.com/fr-FR/parisrb/events/)                 | Le premier mardi de chaque mois     | Groupe pour les passionnés de Ruby, Rails, et généralement technos et business du Web. Nous échangeons tous les premiers mardis du mois autour des technos (rails, web, gems, frameworks...), des meilleurs pratiques (méthodes agiles, tests, management...), et de l'aspect business (emploi, produit...). |                                                                                                              | 
+<div class="container">
+
+  <MeetingCard
+    src='/img/community/paris-ruby-workshop.png'
+    title='Paris Ruby Workshop'
+    href='https://www.meetup.com/fr-FR/Paris-Ruby-Workshop/'
+    frequency="Le deuxième mercredi de chaque mois"
+    description="Le Paris Ruby Workshop est un meetup technique pour accueillir les nouveaux venus dans la communauté ruby de Paris et permettre aux développeurs d’échanger et d’apprendre. Venez pairer sur des kata ou du code open source ruby !"
+  />
+
+  <MeetingCard
+    src='/img/community/paris-rb.jpg'
+    title='Paris.rb'
+    href='https://www.meetup.com/fr-FR/parisrb/events/'
+    frequency="Le premier mardi de chaque mois"
+    description="Groupe pour les passionnés de Ruby, Rails, et généralement technos et business du Web. Nous échangeons tous les premiers mardis du mois autour des technos (rails, web, gems, frameworks...), des meilleurs pratiques (méthodes agiles, tests, management...), et de l'aspect business (emploi, produit...)"
+  />
+
+</div>
 
 ## Slacks et Discords
 
@@ -60,7 +76,7 @@ import HorizontalCard from '@site/src/components/horizontal_card.js';
     alt='Logo Discord StimulusReflex'
     href='https://discord.gg/XveN625'
     title='StimulusReflex'
-    description="[EN] Discord de la communauté des utilisateurs de la gem StimulusReflex qui permet de rajouter de la réactivité à nos app rails."
+    description="[EN] Discord de la communauté des utilisateurs de la gem StimulusReflex qui permet de rajouter de la réactivité à nos sites rails."
   />
 
   <HorizontalCard
