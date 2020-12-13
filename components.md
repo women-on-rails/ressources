@@ -45,6 +45,7 @@ Nous avons ajouté des components au site au fur et à mesure de nos besoins, il
 * `<DarkModeImage/>` : [website/src/components/dark_mode_image.js](website/src/components/dark_mode_image.js)
 * `<HorizontalCard/>` : [website/src/components/horizontal_card.js](website/src/components/horizontal_card.js)
 * `<Timeline/>` et `<TimelineStep/>` : [website/src/components/timeline.js](website/src/components/timeline.js) et [website/src/components/timeline_step.js](website/src/components/timeline_step.js)
+* `<MeetingCard/>` : [website/src/components/meeting_card.js](website/src/components/meeting_card.js)
 
 
 <details>
@@ -204,6 +205,35 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
     ➡️ <Link to="s-entrainer-aux-tests">S'entraîner aux tests</Link>
   </TimelineStep>
 </Timeline>
+```
+</details>
+
+<details>
+  <summary>
+    MeetingCard
+  </summary>
+
+<br/>
+
+**Chemin d'accès** : [website/src/components/meeting_card.js](website/src/components/meeting_card.js)
+
+**Description** : utilisé sur la page [Le réseau](https://women-on-rails.github.io/ressources/docs/reseau), 
+
+![Component HorizontalCard](website/static/img/doc_components/component_horizontal_card.png)
+
+**Utilisation**
+
+1. Importation en haut du fichier : ``
+2. Exemple :
+
+```jsx
+  <HorizontalCard
+    src='/img/find_a_job/katas/codewars.jpeg'
+    alt='Logo Codewars'
+    href='https://www.codewars.com/'
+    title='Codewars'
+    description="Sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition. Chaque kata a un espace de discussion où tu peux commenter, aider ou être aidé.e."
+  />
 ```
 </details>
 
