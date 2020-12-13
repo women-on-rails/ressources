@@ -6,5 +6,6 @@ module.exports = {
     Pratiquer: ['practice/side-projects', 'practice/open-source'],
     "Se former et s'informer": ['keeping_up/sites-and-tools', 'keeping_up/blogs-and-newsletters', 'keeping_up/books', 'keeping_up/videos-and-podcasts'],
     'La communauté RoR': ['community/socials', 'community/events'],
+    'Mentorat': ['mentoring/our-mentors']
   }
 }

@@ -33,6 +33,7 @@
 }
 
 @import "blog_card.css";
+@import "mentor_card.css";
 
 *,
 *::after,

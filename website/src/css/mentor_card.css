@@ -1,0 +1,29 @@
+.mentors-list-wrapper {
+    /* display: flex; */
+    width: 100%;
+}
+
+.mentor-card {
+    /* background-color: aqua; */
+    margin: 1em 0;
+    /* width: 50%; */
+}
+
+.mentor-picture {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.mentor-card-header {
+    display: flex;
+    padding: 1em
+
+}
+
+.mentor-text {
+    display: flex;
+    flex-direction: column;
+}
