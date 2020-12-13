@@ -4,9 +4,8 @@
 }
 
 .mentor-card {
-    /* background-color: aqua; */
-    margin: 1em 0;
-    /* width: 50%; */
+    margin: 1em 0;    /* width: 50%; */
+    padding: 1em;
 }
 
 .mentor-picture {
@@ -19,11 +18,20 @@
 
 .mentor-card-header {
     display: flex;
-    padding: 1em
-
+    /* padding: 1em; */
+    align-items: center;
 }
 
 .mentor-text {
     display: flex;
     flex-direction: column;
+    margin-left: 2em;
+}
+
+.mentor-link {
+    margin-right: .5em
+}
+
+.mentor-description {
+    margin-top: 1em;
 }
