@@ -3,6 +3,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function MeetingCard({
   src,
+  alt,
   title,
   href,
   description,
@@ -19,7 +20,7 @@ export default function MeetingCard({
               <img
                 class="avatar__photo avatar__photo--xl"
                 src={useBaseUrl(src)}
-                alt={title}
+                alt={alt}
               />
             </a>
           </div>
