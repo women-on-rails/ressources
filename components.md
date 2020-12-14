@@ -217,22 +217,23 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
 
 **Chemin d'accès** : [website/src/components/meeting_card.js](website/src/components/meeting_card.js)
 
-**Description** : utilisé sur la page [Le réseau](https://women-on-rails.github.io/ressources/docs/reseau), 
+**Description** : utilisé sur la page [Le réseau](https://women-on-rails.github.io/ressources/docs/reseau), il permet d'afficher une carte comprenant le logo du meetup, son nom, sa fréquence ("tous les x du mois"), sa description et le lien du meetup.
 
-![Component HorizontalCard](website/static/img/doc_components/component_horizontal_card.png)
+![Component MeetingCard](website/static/img/doc_components/component_meeting_card.png)
 
 **Utilisation**
 
-1. Importation en haut du fichier : ``
+1. Importation en haut du fichier : `import MeetingCard from '@site/src/components/meeting_card.js';`
 2. Exemple :
 
 ```jsx
-  <HorizontalCard
-    src='/img/find_a_job/katas/codewars.jpeg'
-    alt='Logo Codewars'
-    href='https://www.codewars.com/'
-    title='Codewars'
-    description="Sûrement le plus connu, tu peux aussi retrouver d'autres développeur.se.s que tu connais pour faire monter un peu la compétition. Chaque kata a un espace de discussion où tu peux commenter, aider ou être aidé.e."
+  <MeetingCard
+    src='/img/community/paris-ruby-workshop.png'
+    alt='Logo Paris Ruby Workshop'
+    title='Paris Ruby Workshop'
+    href='https://www.meetup.com/fr-FR/Paris-Ruby-Workshop/'
+    frequency="Le deuxième mercredi de chaque mois"
+    description="Le Paris Ruby Workshop est un meetup technique pour accueillir les nouveaux venus dans la communauté ruby de Paris et permettre aux développeurs d’échanger et d’apprendre. Venez pairer sur des kata ou du code open source ruby !"
   />
 ```
 </details>
