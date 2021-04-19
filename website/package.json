@@ -11,8 +11,8 @@
     "build:fr": "bash build.fr.sh"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.73",
-    "@docusaurus/preset-classic": "2.0.0-alpha.73",
+    "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
