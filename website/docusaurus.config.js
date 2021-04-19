@@ -125,6 +125,11 @@ const siteConfig = {
     },
     sidebarCollapsible: true,
   },
+
+  i18n: {
+    defaultLocale: 'fr',
+    locales: ['fr']
+  },
 };
 
 module.exports = siteConfig;
