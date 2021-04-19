@@ -59,6 +59,8 @@ const siteConfig = {
         },
       ],
     },
+
+    image: 'img/logo.jpeg',
   
     blog: {
       postsPerPage: 10,
