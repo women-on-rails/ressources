@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{94:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Mise \xe0 jour de la doc","permalink":"/ressources/blog/2020/10/18/update-contributing"},{"title":"Hello, World !","permalink":"/ressources/blog/2020/10/04/hello-world"}]}')}}]);
