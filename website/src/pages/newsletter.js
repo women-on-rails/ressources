@@ -4,7 +4,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import styles from '@site/src/css/newsletter.module.css';
 import Blockquote from '@site/src/components/blockquote.js';
-import NewsletterCard from '@site/src/components/newsletter_card';
 
 const MyPage = () => {
   const {siteConfig} = useDocusaurusContext();
