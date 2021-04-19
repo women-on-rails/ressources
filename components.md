@@ -45,6 +45,7 @@ Nous avons ajouté des components au site au fur et à mesure de nos besoins, il
 * `<DarkModeImage/>` : [website/src/components/dark_mode_image.js](website/src/components/dark_mode_image.js)
 * `<HorizontalCard/>` : [website/src/components/horizontal_card.js](website/src/components/horizontal_card.js)
 * `<Timeline/>` et `<TimelineStep/>` : [website/src/components/timeline.js](website/src/components/timeline.js) et [website/src/components/timeline_step.js](website/src/components/timeline_step.js)
+* `<MeetingCard/>` : [website/src/components/meeting_card.js](website/src/components/meeting_card.js)
 
 
 <details>
@@ -204,6 +205,36 @@ Ici tu ne vas remplir que le titre dans les attributs du component `TimelineStep
     ➡️ <Link to="s-entrainer-aux-tests">S'entraîner aux tests</Link>
   </TimelineStep>
 </Timeline>
+```
+</details>
+
+<details>
+  <summary>
+    MeetingCard
+  </summary>
+
+<br/>
+
+**Chemin d'accès** : [website/src/components/meeting_card.js](website/src/components/meeting_card.js)
+
+**Description** : utilisé sur la page [Le réseau](https://women-on-rails.github.io/ressources/docs/reseau), il permet d'afficher une carte comprenant le logo du meetup, son nom, sa fréquence ("tous les x du mois"), sa description et le lien du meetup.
+
+![Component MeetingCard](website/static/img/doc_components/component_meeting_card.png)
+
+**Utilisation**
+
+1. Importation en haut du fichier : `import MeetingCard from '@site/src/components/meeting_card.js';`
+2. Exemple :
+
+```jsx
+  <MeetingCard
+    src='/img/community/paris-ruby-workshop.png'
+    alt='Logo Paris Ruby Workshop'
+    title='Paris Ruby Workshop'
+    href='https://www.meetup.com/fr-FR/Paris-Ruby-Workshop/'
+    frequency="Le deuxième mercredi de chaque mois"
+    description="Le Paris Ruby Workshop est un meetup technique pour accueillir les nouveaux venus dans la communauté ruby de Paris et permettre aux développeurs d’échanger et d’apprendre. Venez pairer sur des kata ou du code open source ruby !"
+  />
 ```
 </details>
 
