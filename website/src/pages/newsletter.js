@@ -46,7 +46,7 @@ const MyPage = () => {
             <div className='row'>
               <div className='col col--4'>
                 <div className={styles.emoji + ' ' + styles.gem}></div><h3>Du Ruby et du Rails</h3>
-                <p>Avec Ruby 3 et Rails 6, il y a de nouvelles perspectives pour ce framework, reste au courant des dernières évolutions</p>
+                <p>Reste au courant des améliorations apportées au framework Rails et retrouve des tips Ruby</p>
               </div>
               <div className='col col--4'>
                 <div className={styles.emoji + ' ' + styles.web}></div><h3>L'actualité web</h3>
@@ -54,17 +54,17 @@ const MyPage = () => {
               </div>
               <div className='col col--4'>
                 <div className={styles.emoji + ' ' + styles.seeding}></div><h3>De l'inclusivité</h3>
-                <p>Si tu penses que chacun à sa place dans la tech et qu'il faut faire bouger les choses pour avoir plus de diversités</p>
+                <p>On valorise la diversité et la représentation de différents profils</p>
               </div>
             </div>
             <div className='row'>
               <div className='col col--4'>
                 <div className={styles.emoji + ' ' + styles.monocle}></div><h3>De la sélection</h3>
-                <p>Fini une liste interminable de tutos, de liens vidéos, à la place quelques lectures clés</p>
+                <p>Fini une liste interminable de tutos ou de liens vidéos, à la place quelques lectures clés</p>
               </div>
               <div className='col col--4'>
                 <div className={styles.emoji + ' ' + styles.sparkles}></div><h3>De l'inspiration</h3>
-                <p>Des ressources soigneusement sélectionnées pour aller plus loin</p>
+                <p>On partage des projets stylés qui nous rappellent pourquoi on aime coder</p>
               </div>
               <div className='col col--4'>
                 <div className={styles.emoji + ' ' + styles.timer}></div><h3>De l'efficacité</h3>
