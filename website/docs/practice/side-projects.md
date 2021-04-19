@@ -22,3 +22,6 @@ Il y a par exemple [@laasrinadiaa](https://twitter.com/laasrinadiaa) qui a réal
 
 ## CodePen Challenges
 Si tu as une petite passion pour le front, [CodePen](https://codepen.io/) publie chaque début de semaine un [challenge de front](https://codepen.io/challenges/), du HTML / CSS mais pas que, ils font aussi des collaborations avec des frameworks ou librairies de front.
+
+## Hackathons
+Parce que qui a dit que les week-ends devaient se passer à l'air libre ? Non, sérieusement, [Devpost](https://devpost.com/) recense de nombreux hackatons si tu as envie de relever le défi !
