@@ -78,9 +78,9 @@ const MyPage = () => {
 
       <div className='hero'>
         <div className='container container--centered'>
-          <a href='https://womenonrails.substack.com/archive'target='_blank' >
-          <h2 className='hero__title--middle'>Lire les précédentes newsletters</h2>
-          </a>
+          <button href='https://womenonrails.substack.com/archive' target='_blank' className={styles.learnMore} >
+            Lire les précédentes newsletters
+          </button>
         </div>
       </div>
 
