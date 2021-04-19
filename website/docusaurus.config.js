@@ -39,10 +39,6 @@ const siteConfig = {
   ],
 
   themeConfig: {
-    gtag: {
-      trackingID: 'G-7RTF3NLPZ0',
-      anonymizeIP: true,
-    },
     navbar: {
       title: 'Women On Rails',
       logo: {
