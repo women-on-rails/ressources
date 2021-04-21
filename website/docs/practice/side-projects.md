@@ -10,6 +10,7 @@ Pour t'aider à progresser, tu peux développer tes propres projets. Si tu cherc
 Coder oui, mais coder quoi ? ^^" Une petite liste de projets pour t'inspirer:
 * [App ideas](https://github.com/florinpop17/app-ideas): des idées d'applications par niveau (débutant, intermédiaire, avancé)
 * [Build your own x](https://github.com/danistefanovic/build-your-own-x): On sort un peu du web là avec des projets variés (construire une blockchain, reconstruire git, un compiler...) avec quelques tutoriels en Ruby.
+* [Project based learning](https://github.com/tuvtran/project-based-learning): Des listes de projets à coder, triés par langage.
 * Il y a de nombreuses chaînes YouTube qui proposent des tutoriels pour construire des applications Rails, comme celle de Mackenzie Child avec [12 idées d'applications en Rails](https://www.youtube.com/playlist?list=PL23ZvcdS3XPLNdRYB_QyomQsShx59tpc-)
 
 ## Boîtes à idées / inspiration
@@ -21,3 +22,6 @@ Il y a par exemple [@laasrinadiaa](https://twitter.com/laasrinadiaa) qui a réal
 
 ## CodePen Challenges
 Si tu as une petite passion pour le front, [CodePen](https://codepen.io/) publie chaque début de semaine un [challenge de front](https://codepen.io/challenges/), du HTML / CSS mais pas que, ils font aussi des collaborations avec des frameworks ou librairies de front.
+
+## Hackathons
+Parce que qui a dit que les week-ends devaient se passer à l'air libre ? Non, sérieusement, [Devpost](https://devpost.com/) recense de nombreux hackatons si tu as envie de relever le défi !
