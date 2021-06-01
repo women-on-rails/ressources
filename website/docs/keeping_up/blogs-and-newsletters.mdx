@@ -4,8 +4,8 @@ title: Blogs et newsletters
 slug: /blogs-and-newsletters
 ---
 
-import Avatar from '@site/src/components/avatar.js';
 import HorizontalCard from '@site/src/components/horizontal_card.js';
+import MeetingCard from '@site/src/components/meeting_card.js';
 
 ## Blogs
 <div class="container">
@@ -36,6 +36,33 @@ import HorizontalCard from '@site/src/components/horizontal_card.js';
 
 
 ## Newsletters
-- [Awesome Ruby](https://ruby.libhunt.com/newsletter): une newsletter tous les vendredis regroupant les articles, nouvelles et gems populaires de la semaine
-- [Ruby Weekly](https://rubyweekly.com/): même topo, mais le jeudi
-- [Maintenable Rails](https://hi.planetargon.com/maintainable-rails): Une série d'e-mails réguliers sur comment refactorer / construire une application en Rails qu'on ne veut pas jeter rapidement à la poubelle
+
+<div class="container">
+  <MeetingCard
+    src='img/keeping_up/blogs-and-newsletters/awesome_ruby.png'
+    alt='Logo Awesome Ruby'
+    href='https://ruby.libhunt.com/newsletter'
+    title='Awesome Ruby'
+    frequency="Tous les vendredis"
+    description="Une newsletter regroupant les articles, nouvelles et gems populaires de la semaine."
+  />
+  
+  <MeetingCard
+    src='img/keeping_up/blogs-and-newsletters/ruby_weekly.png'
+    alt='Logo Ruby Weekly'
+    href='https://rubyweekly.com/'
+    title='Ruby Weekly'
+    frequency="Tous les jeudis"
+    description="Une newsletter regroupant les articles, nouvelles et gems populaires de la semaine."
+  />
+
+  <MeetingCard
+    src='img/keeping_up/blogs-and-newsletters/maintainable-rails.png'
+    alt='Logo Maintenable Rails'
+    href='https://hi.planetargon.com/maintainable-rails'
+    title='Maintenable Rails'
+    frequency="Hebdomadaire"
+    description="Une série d'e-mails réguliers sur comment refactorer / construire une application en Rails qu'on ne veut pas jeter rapidement à la poubelle."
+  />
+</div><br/>
+
