@@ -4,7 +4,7 @@
 }
 
 .bgGreen {
-  background-color: var(--ifm-color-primary-lightest);
+  background-color: rgba(35, 199, 181, 0.3);
 }
 
 .roundedCorner {
