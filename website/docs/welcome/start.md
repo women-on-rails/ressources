@@ -5,7 +5,7 @@ slug: /
 ---
 
 ## Petite présentation du site
-Les Ressources de Women On Rails est [un site collaboratif](https://github.com/women-on-rails/ressources) avec de nombreuses catégories (Trouver un job, Pratiquer, la Communauté RoR...) contenant de multiples ressources soigneusement choisies et commentées pour t'informer sur les sujets qui t'intéressent.<br/>
+Les Ressources de Women On Rails est [un site collaboratif](https://github.com/women-on-rails/ressources) avec de nombreuses catégories (Trouver un job, Pratiquer, la Communauté dév...) contenant de multiples ressources soigneusement choisies et commentées pour t'informer sur les sujets qui t'intéressent.<br/>
 
 ## Comment l'utiliser ?
 Il y a beaucoup à lire, on renvoit vers de nombreuses ressources, mais ce n'est pas un nouveau site à ajouter sur ton (interminable) to-do list !
