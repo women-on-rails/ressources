@@ -3,6 +3,7 @@ id: sites-and-tools
 title: Sites et outils ressources
 slug: /sites-et-outils-ressources
 ---
+import HorizontalCard from '@site/src/components/horizontal_card.js';
 
 ## Dossiers en ligne
 - [Awesome Ruby](https://github.com/markets/awesome-ruby): des ressources pour développer en Ruby (gems, outils, logiciels...) par catégorie
@@ -11,6 +12,27 @@ slug: /sites-et-outils-ressources
 - [Rails5 Api Tutorial](https://github.com/vasilakisfil/rails5_api_tutorial): un tuto pour apprendre à coder une API sous Rails 5
 - [Rubocop](https://github.com/rubocop-hq/ruby-style-guide): les bonnes pratiques™ de code en Ruby 
 
+
 ## Sites
-- [Guides RubyOnRails](https://guides.rubyonrails.org/getting_started.html): le guide officiel de Ruby On Rails
-- [RailsCast](http://railscasts.com/): articles et vidéos tuto
+<div class="container">
+<div class="row">
+    <div class="col col--4">
+        <HorizontalCard
+            src='img/keeping_up/site-and-tools/rails-logo.png'
+            alt='Guides RubyOnRails'
+            href='https://guides.rubyonrails.org/getting_started.html'
+            title='Guides RubyOnRails'
+            description="Le guide officiel de Ruby On Rails"
+        />
+    </div>
+    <div class="col col--4">
+        <HorizontalCard
+            src='img/keeping_up/site-and-tools/railscasts_logo.png'
+            alt='RailsCast'
+            href='http://railscasts.com/'
+            title='RailsCast'
+            description="Articles et vidéos tuto"
+        />
+    </div>
+</div>
+</div>
