@@ -26,7 +26,7 @@ Les tests peuvent prendre plusieurs formes:
 | ✅ | Laisser les contrôleurs aussi propres que possible. |
 | ✅ | Tester ce qui est vraiment critique. |
 | ✅ | Coder pour que le code soit facilement compréhensible par d’autres. |
-| ✅ | Ne pas hésiter à créer un ReadMe pour évoquer les choix faits, les difficultés rencontrées voire les améliorations potentielles. Ça permet de montrer que tu es consciente ou conscient des décisions prises, donc que tu sais ce que tu fais. |
+| ✅ | Ne pas hésiter à créer un [ReadMe](https://readme.so) pour évoquer les choix faits, les difficultés rencontrées voire les améliorations potentielles. Ça permet de montrer que tu es consciente ou conscient des décisions prises, donc que tu sais ce que tu fais. |
 
 ## Le tableau blanc
 Passé sur place, avec une développeuse ou un développeur, le test "tableau blanc" consiste à te poser des questions mathématiques, d'algorithmie ou de construction de bases de données où tu dois répondre en direct.<br/>
@@ -34,3 +34,8 @@ Passé sur place, avec une développeuse ou un développeur, le test "tableau bl
 
 ## Pair-programming
 Une autre forme d'entretien qui peut avoir lieu sur place ou en ligne est un test en "pair-programming". Tu fais un exercice avec une développeuse ou un développeur de l'équipe. Comme le tableau blanc, c'est un moyen de voir "en direct" comment tu réfléchis.
+
+:::info Tips
+L'idéal est de <b>poser un maximum de questions</b> au recruteur avant (ou au début du test) pour mieux comprendre ce qu'on attend de toi et arriver plus serein·e au test : quel est le format du test, ce qui est évalué, combien de temps doit durer le test, quel type d'exercice sera demandé, y a-t-il besoin d'un setup spécifique, etc
+:::
+
