@@ -45,6 +45,6 @@ La communauté repose sur l'activité des ses membres, plus les membres sont act
 - Participer à la vie du Slack 
 - Partager une ressource Rails ou un profil tech
 - [Faire une PR ou une review](https://women-on-rails.github.io/ressources/docs/comment-contribuer) sur le site Ressources
-- Préparer un talks ou un workshop pour partager tes connaissances et ton expérience
+- Préparer un talk ou un workshop pour partager tes connaissances et ton expérience
 
 La liste est non exhaustive, donc si tu as d’autres idées que tu voudrais mettre en place n’hésite pas à nous en parler bien-sûr.
