@@ -13,15 +13,6 @@ Tu trouveras dans cet article une présentation de Wor, une liste de nos activit
 ## Qu'est-ce que la communauté Women On Rails ?
 
 ** Women On Rails est un groupe de partage et d'entraide féministe et LGBT-friendly visant à connecter les développeuses Rails de tous niveaux. **
-<!-- 
-Il s'agit d'une communauté rassemblant développeuses, apprenantes et curieuses d'apprendre à coder ou de développer leurs compétences. 
-
-Apprendre les unes des autres et se soutenir est un des moteurs principaux de la communauté.
-
-Women on Rails est un groupe féministe, LGBT-friendly, dont les activités se déroulent en non-mixité voulue et choisie pour les personnes se définissant comme femme ou non-binaire.
-
-La communauté est ouverte à toutes quelque soit le niveau. L’objectif est de grandir ensemble, que chacune puisse y trouver quelque chose, une source d’inspiration, une aide technique ou un soutien.  -->
-
 
 ### WoR c'est ....
 - ☕️ **[Un Slack](https://women-on-rails.github.io/ressources/help/)** : pour rassembler et connecter les développeuses Rails de tous niveaux
