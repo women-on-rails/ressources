@@ -3,7 +3,7 @@ title: S'engager auprès de Women on Rails
 author: Camille
 ---
 
-Bonjour et merci de t'intêresser à la communauté Women on Rails 😀
+Bonjour et merci de t’intéresser à la communauté Women on Rails 😀
 
 Ce site de ressources et ce blog sont développés par la communauté Women on Rails.
 
