@@ -7,7 +7,7 @@ Bonjour et merci de t’intéresser à la communauté Women on Rails 😀
 
 Ce site de ressources et ce blog sont développés par la communauté Women on Rails.
 
-Tu trouveras dans cet article une présentation de Wor, une liste de nos activités, ainsi que des pistes pour que toi aussi tu puisses t'engager à nos côtés et soutenir la communauté Women on Rails.
+Tu trouveras dans cet article une présentation de Women on Rails (WoR), une liste de nos activités, ainsi que des pistes pour que toi aussi tu puisses t'engager à nos côtés et soutenir la communauté Women on Rails.
 
 
 ## Qu'est-ce que la communauté Women On Rails ?
