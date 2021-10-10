@@ -20,6 +20,23 @@ const MyPage = () => {
             <p className="hero__subtitle"> Découvrez nos derniers articles.</p>
             <br />
             <div class="row">
+            <div class="col col--4">
+                <BlogCard
+                  link={
+                    "https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved"
+                  }
+                  image={useBaseUrl("img/logo.png")}
+                  imageAlt={"S'engager auprès de Women on Rails"}
+                  imageTitle={"S'engager auprès de Women on Rails"}
+                  title={"S'engager auprès de Women on Rails"}
+                  summary={
+                    "Vous souhaitez vous engager auprès de la communauté Women on Rails ? Voici quelques pistes pour nous soutenir et développer la communauté."
+                  }
+                  date={"24 septembre 2021"}
+                  author={"Camille"}
+                  tag={"INFOS"}
+                ></BlogCard>
+              </div>
               <div class="col col--4">
                 <BlogCard
                   link={
