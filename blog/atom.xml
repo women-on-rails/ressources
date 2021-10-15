@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://women-on-rails.github.io/blog</id>
     <title>Women On Rails Blog</title>
-    <updated>2020-10-18T00:00:00.000Z</updated>
+    <updated>2021-09-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://women-on-rails.github.io/blog"/>
     <subtitle>Women On Rails Blog</subtitle>
     <icon>https://women-on-rails.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[S'engager auprès de Women on Rails]]></title>
+        <id>S'engager auprès de Women on Rails</id>
+        <link href="https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved"/>
+        <updated>2021-09-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bonjour et merci de t’intéresser à la communauté Women on Rails 😀]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mise à jour de la doc]]></title>
         <id>Mise à jour de la doc</id>

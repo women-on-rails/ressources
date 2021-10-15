@@ -4,9 +4,16 @@
         <title>Women On Rails Blog</title>
         <link>https://women-on-rails.github.io/blog</link>
         <description>Women On Rails Blog</description>
-        <lastBuildDate>Sun, 18 Oct 2020 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[S'engager auprès de Women on Rails]]></title>
+            <link>https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved</link>
+            <guid>S'engager auprès de Women on Rails</guid>
+            <pubDate>Fri, 24 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bonjour et merci de t’intéresser à la communauté Women on Rails 😀]]></description>
+        </item>
         <item>
             <title><![CDATA[Mise à jour de la doc]]></title>
             <link>https://women-on-rails.github.io/ressources/blog/2020/10/18/update-contributing</link>
