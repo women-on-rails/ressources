@@ -31,5 +31,12 @@
   "devDependencies": {
     "git-notify": "^0.2.3",
     "husky": "4"
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "git-notify merge $HUSKY_GIT_PARAMS",
+      "post-rewrite": "git-notify rewrite $HUSKY_GIT_PARAMS",
+      "post-checkout": "git-notify checkout $HUSKY_GIT_PARAMS"
+    }
   }
 }
