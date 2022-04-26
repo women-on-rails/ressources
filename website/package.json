@@ -27,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "git-notify": "^0.2.3",
+    "husky": "4"
   }
 }
