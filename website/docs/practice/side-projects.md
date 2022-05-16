@@ -17,7 +17,7 @@ Coder oui, mais coder quoi ? ^^" Une petite liste de projets pour t'inspirer:
 [Public APIs](https://github.com/public-apis/public-apis): tu sais que tu aimerais faire un site sur la musique ou au contraire tu n'as pas d'idées et tu aimerais avoir de l'inspiration ? Tu trouveras sur ce dossier en ligne des listes d'API publiques dont tu peux te servir pour avoir des données pour nourrir ton site.
 
 ## 100 days of code
-Une initiative assez populaire parmi les développeur.se.s sur Twitter est le [100 days of code](https://www.100daysofcode.com/) qui consiste à s'engager à coder au moins une heure tous les jours et à poster tes progrès, tout en suivant ceux des autres pout t'inspirer.<br/>
+Une initiative assez populaire parmi les développeur.se.s sur Twitter est le [100 days of code](https://www.100daysofcode.com/) qui consiste à s'engager à coder au moins une heure tous les jours et à poster tes progrès, tout en suivant ceux des autres pour t'inspirer.<br/>
 Il y a par exemple [@laasrinadiaa](https://twitter.com/laasrinadiaa) qui a réalisé [50 illustrations en CSS](https://cssart.netlify.app/).
 
 ## CodePen Challenges
