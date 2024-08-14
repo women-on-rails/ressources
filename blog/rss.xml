@@ -1,32 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Women On Rails Blog</title>
-        <link>https://women-on-rails.github.io/blog</link>
+        <link>https://women-on-rails.github.io/ressources/blog</link>
         <description>Women On Rails Blog</description>
         <lastBuildDate>Fri, 24 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
         <item>
             <title><![CDATA[S'engager auprès de Women on Rails]]></title>
             <link>https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved</link>
-            <guid>S'engager auprès de Women on Rails</guid>
+            <guid>https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved</guid>
             <pubDate>Fri, 24 Sep 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Bonjour et merci de t’intéresser à la communauté Women on Rails 😀]]></description>
+            <content:encoded><![CDATA[<p>Bonjour et merci de t’intéresser à la communauté Women on Rails 😀</p>
+<p>Ce site de ressources et ce blog sont développés par la communauté Women on Rails.</p>
+<p>Tu trouveras dans cet article une présentation de Women on Rails (WoR), une liste de nos activités, ainsi que des pistes pour que toi aussi tu puisses t'engager à nos côtés et soutenir la communauté Women on Rails.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quest-ce-que-la-communauté-women-on-rails-">Qu'est-ce que la communauté Women On Rails ?<a href="https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved#quest-ce-que-la-communaut%C3%A9-women-on-rails-" class="hash-link" aria-label="Lien direct vers Qu'est-ce que la communauté Women On Rails ?" title="Lien direct vers Qu'est-ce que la communauté Women On Rails ?">​</a></h2>
+<p><strong>Women On Rails est un groupe de partage et d'entraide féministe et LGBT-friendly visant à connecter les développeuses Rails de tous niveaux.</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wor-cest-">WoR c'est ....<a href="https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved#wor-cest-" class="hash-link" aria-label="Lien direct vers WoR c'est ...." title="Lien direct vers WoR c'est ....">​</a></h3>
+<ul>
+<li>☕️ <strong><a href="https://women-on-rails.github.io/ressources/help/" target="_blank" rel="noopener noreferrer">Un Slack</a></strong> : pour rassembler et connecter les développeuses Rails de tous niveaux</li>
+<li>💻 <strong><a href="https://women-on-rails.github.io/ressources/" target="_blank" rel="noopener noreferrer">Un site open source</a></strong> pour partager les ressources</li>
+<li>🐦 <strong><a href="https://twitter.com/womenonrails" target="_blank" rel="noopener noreferrer">Un compte Twitter</a></strong> pour suivre la communauté dev et Rails</li>
+<li>💌 <strong><a href="https://womenonrails.substack.com/" target="_blank" rel="noopener noreferrer">Une Newsletter</a></strong> disponible en plusieurs langues pour être au courant de l'actu Rails et Web</li>
+<li>📅 <strong><a href="https://www.meetup.com/fr-FR/Women-On-Rails/" target="_blank" rel="noopener noreferrer">Un groupe Meetup</a></strong> qui propose différents types d'événements</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="le-groupe-meetup-cest-">Le Groupe Meetup c'est ....<a href="https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved#le-groupe-meetup-cest-" class="hash-link" aria-label="Lien direct vers Le Groupe Meetup c'est ...." title="Lien direct vers Le Groupe Meetup c'est ....">​</a></h3>
+<ul>
+<li><strong>Des workshops et des talks</strong> sur un sujet thématique (StimulusJS, Kata, l'open-source,...)</li>
+<li><strong>Des "Cafés code"</strong> : des moments pour se réunir dans le but d'avancer sur un projet individuel et se motiver en petit groupe (créer un blog, apprendre un nouveau langage, développer un side-project,...)</li>
+<li><strong>Des "Cafés carrière"</strong> : sous forme de talks ou de workshops dans lesquels on partage nos connaissances et nos tips pour développer sa carrière (brag-document, négociation, découverte d'un nouveau métier,...)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comment-participer-et-sengager-">Comment participer et s'engager ?<a href="https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved#comment-participer-et-sengager-" class="hash-link" aria-label="Lien direct vers Comment participer et s'engager ?" title="Lien direct vers Comment participer et s'engager ?">​</a></h2>
+<p>Tu souhaites participer mais tu ne sais pas par où commencer, sache que tu es le.a bienvenu.e.</p>
+<p>La communauté repose sur l'activité des ses membres, plus les membres sont actif.ve.s, plus les échanges seront riches. Il n'y a pas de prérequis pour intégrer la communauté Slack et Meetup de Women on Rails, si ce n'est que de se définir comme femme ou non binaire.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tu-peux-tengager-à-nos-côtés-par-différents-moyens-tels-que">Tu peux t'engager à nos côtés par différents moyens tels que...<a href="https://women-on-rails.github.io/ressources/blog/2021/09/24/get-involved#tu-peux-tengager-%C3%A0-nos-c%C3%B4t%C3%A9s-par-diff%C3%A9rents-moyens-tels-que" class="hash-link" aria-label="Lien direct vers Tu peux t'engager à nos côtés par différents moyens tels que..." title="Lien direct vers Tu peux t'engager à nos côtés par différents moyens tels que...">​</a></h3>
+<ul>
+<li>Participer à la vie du Slack</li>
+<li>Partager une ressource Rails ou un profil tech</li>
+<li><a href="https://women-on-rails.github.io/ressources/docs/comment-contribuer" target="_blank" rel="noopener noreferrer">Faire une PR ou une review</a> sur le site Ressources</li>
+<li>Préparer un talk ou un workshop pour partager tes connaissances et ton expérience</li>
+</ul>
+<p>La liste est non exhaustive, donc si tu as d’autres idées que tu voudrais mettre en place n’hésite pas à nous en parler bien-sûr.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Mise à jour de la doc]]></title>
             <link>https://women-on-rails.github.io/ressources/blog/2020/10/18/update-contributing</link>
-            <guid>Mise à jour de la doc</guid>
+            <guid>https://women-on-rails.github.io/ressources/blog/2020/10/18/update-contributing</guid>
             <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Octobre étant le mois d'Hacktoberfest, je souhaitais que ce site profite de l'événement pour avoir ses premières contributions ! C'est chose faite grâce à Claudia (💚)]]></description>
+            <content:encoded><![CDATA[<p>Octobre étant le mois d'<a href="https://hacktoberfest.digitalocean.com/" target="_blank" rel="noopener noreferrer">Hacktoberfest</a>, je souhaitais que ce site profite de l'événement pour avoir ses premières contributions ! C'est chose faite grâce à <a href="https://github.com/clodiap" target="_blank" rel="noopener noreferrer">Claudia</a> (💚)<br>
+Après avoir lu de nombreuses documentations sur comment se lancer dans l'open source, j'ai fait une refonte du <a href="https://github.com/women-on-rails/ressources" target="_blank" rel="noopener noreferrer">Readme</a>, en mettant toutes les informations pour contribuer dans le fichier <a href="https://github.com/women-on-rails/ressources/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">contributing.md</a>. J'ai aussi choisi une <a href="https://github.com/women-on-rails/ressources/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">licence</a> et un <a href="https://github.com/women-on-rails/ressources/blob/master/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">code of conduct</a> (c'est le même que celui de Rails).<br>
+Je recommande fortement les <a href="https://opensource.guide/" target="_blank" rel="noopener noreferrer">guides GitHub en open source</a>, vous trouverez toutes les informations nécessaires pour lancer votre projet en open source !</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Hello, World !]]></title>
             <link>https://women-on-rails.github.io/ressources/blog/2020/10/04/hello-world</link>
-            <guid>Hello, World !</guid>
+            <guid>https://women-on-rails.github.io/ressources/blog/2020/10/04/hello-world</guid>
             <pubDate>Sun, 04 Oct 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Bonjour et bienvenue !]]></description>
+            <content:encoded><![CDATA[<p>Bonjour et bienvenue !<br>
+L'idée de ce site m'est venue début septembre après avoir discuté avec deux développeuses qui recherchaient du travail. On a toutes des ressources qui nous ont aidé à nous former, avancer, passer des entretiens et j'ai pensé à un site qui les regrouperait pour en faire profiter d'autres.<br>
+Ce site est collaboratif: <a href="https://women-on-rails.github.io/ressources/blog/2020/10/04/docs/comment-contribuer">chacun ou chacune peut y contribuer</a>, que ce soit pour les ressources ou le blog !</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
