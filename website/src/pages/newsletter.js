@@ -78,36 +78,17 @@ const MyPage = () => {
 
       <div className='hero'>
         <div className='container container--centered'>
-          <button href='https://womenonrails.substack.com/archive' target='_blank' className={styles.learnMore} >
-            Lire les précédentes newsletters
-          </button>
-        </div>
-      </div>
-
-      <div className='hero'>
-        <div className='container container--centered'>
-          <h2 className='hero__title--middle'>On en parle</h2>
-          <Blockquote
-            text="J'ai beaucoup aimé ce premier opus de la newsletter de WoR ! Le ton est pas impersonnel comme dans la plupart des autres newsletters, ça se lit bien. Les inserts sous chaque section la rendent encore plus humaine/perso."
-            author='Lucien, étudiant à 42'
-            href='https://twitter.com/Crysicia'
-            handle='@Crysicia'
-          />
-          <div className='mt-4'/>
-          <Blockquote
-            text='Je viens de recevoir la première newsletter de @womenonrails ! Super travail 👏👏👏Je conseille pour les débutantes, un bon moyen de se tenir au courant de ce qui se passe dans la communauté Ruby et Rails. En français !'
-            author='Little Cheung'
-            href='https://twitter.com/Ynote_hk'
-            handle='@Ynote_hk'
-          />
-          <div className='mt-4'>
-            <iframe 
-              src='https://womenonrails.substack.com/embed'
-              frameborder='0'
-              scrolling='no'
-            >
-            </iframe>
-          </div>
+        <a href="https://womenonrails.substack.com/archive" target="_blank" rel="noopener noreferrer" class={styles.learnMore}>
+          Lire les précédentes newsletters
+        </a>
+          <br/><br/>
+          <br/><br/>
+          <iframe
+            src='https://womenonrails.substack.com/embed'
+            frameborder='0'
+            scrolling='no'
+          >
+          </iframe>
         </div>
       </div>
     </Layout>
