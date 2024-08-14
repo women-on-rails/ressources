@@ -81,12 +81,17 @@ Ajouter un fichier:
 <img src="website/static/img/contributing/create_file.png">
 
 ## Installer le site en local
-1. Vérifie que tu as [node](https://nodejs.org/en/download/) insallé et [yarn](https://classic.yarnpkg.com/fr/docs/install/#mac-stable).
+1. Vérifie que tu as [node](https://nodejs.org/en/download/) insallé ou [yarn](https://classic.yarnpkg.com/fr/docs/install/#mac-stable).
 
-2. Installe les dépendances:
+2. Déplace toi dans le dossier website
+```sh
+cd website
+```
+
+4. Installe les dépendances:
 
 ```sh
-$ yarn
+$ yarn install
 ```
 
 3. Lance le serveur local:
@@ -109,7 +114,7 @@ Quand tu crées une issue, on te propose automatiquement un template pour [signa
 
 # Une présentation du repo histoire de s'y retrouver
 
-Le site est construit en utilisant [la version 2 de Docusaurus](https://v2.docusaurus.io/), qui permet de mettre facilement en ligne de la documentation.<br/>
+Le site est construit en utilisant [la version 3.5 de Docusaurus](https://docusaurus.io/docs), qui permet de mettre facilement en ligne de la documentation.<br/>
 Il y a quelques pages en React (la page d'accueil, la page à propos), mais sinon les fichiers ressources et les pages de blog sont au format **MarkDown**, comme celui de tout README d'un repo.<br/>
 Tu peux réviser la syntaxe Markdown en [60 secondes](https://commonmark.org/help/) ou [suivre un tutorial de 10 minutes](https://commonmark.org/help/tutorial/).<br/>
 Il y a aussi quelques pages avec des éléments plus design où il y a du React dans du MarkDown, c'est le format [MDX](https://mdxjs.com/) (🤯) mais tu n'es pas du tout obligé·e de le connaître pour contribuer.
