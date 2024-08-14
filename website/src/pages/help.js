@@ -3,7 +3,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
-import DarkModeImage from '../components/dark_mode_image.js'
 
 const MyPage = () => {
   const {siteConfig} = useDocusaurusContext();
@@ -43,13 +42,6 @@ const MyPage = () => {
                     compte Twitter
                   </a>
                   <span>  on partage des infos sur Ruby et Rails, des comptes de femmes qui codent, des offres d'emplois...</span>
-                </p>
-              </div>
-              <div class="col col--4">
-                <DarkModeImage imgsrcdark="/img/slack_dark.png" imgsrclight="/img/slack.png" customclass="social-logo" />
-                <p>
-                  <span>On a un Slack aussi, envoie-nous un mail pour qu'on puisse t'ajouter.</span><br/>
-                  <DarkModeImage imgsrcdark="/img/email_dark.png" imgsrclight="/img/email.png" />
                 </p>
               </div>
             </div>
