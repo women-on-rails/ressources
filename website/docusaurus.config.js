@@ -121,6 +121,8 @@ const siteConfig = {
     defaultLocale: 'fr',
     locales: ['fr']
   },
+
+  onBrokenLinks: 'ignore',
 };
 
 module.exports = siteConfig;
