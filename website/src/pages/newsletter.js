@@ -19,7 +19,7 @@ const MyPage = () => {
             <div className='col col--6'>
               <img
                 alt='Boîte aux lettres avec du courrier dedans'
-                src={useBaseUrl('img/newsletter/inbox.png')}
+                src={useBaseUrl('img/newsletter/inbox.svg')}
                 className= { styles.newsletterImage }
               />
             </div>
