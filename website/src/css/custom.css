@@ -95,6 +95,10 @@ html {
   padding-top: 1em;
 }
 
+.mt-4 {
+  margin-top: 4em;
+}
+
 .hero__title--middle {
   font-size: 2rem;
 }
@@ -111,4 +115,17 @@ html {
 
 .m-0 {
   margin: 0 ;
+}
+
+.row {
+  padding: 1em;
+}
+
+blockquote {
+  border-left: initial;
+  color: initial;
+  font-size: initial;
+  margin: initial;
+  margin-bottom: initial;
+  padding: initial;
 }

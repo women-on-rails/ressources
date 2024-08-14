@@ -1,43 +1,95 @@
-.newsletterList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.newsletterList li {
-  padding-left: 1rem;
-  text-indent: -0.75rem;
-}
-
-.newsletterList li::before {
-  content: "🗞️ ";
-}
-
-.newsletterList li:nth-child(2)::before {
-  content: "💎 ";
-}
-
-.newsletterList li:nth-child(3)::before {
-  content: "💬 ";
-}
-
-.newsletterList li:nth-child(4)::before {
-  content: "🧐 ";
-}
-
-.newsletterList li:nth-child(5)::before {
-  content: "✨ ";
-}
-
-.newsletterList li:nth-child(6)::before {
-  content: "🌱 ";
-}
-
-.newsletterList li:nth-child(7)::before {
-  content: "⏲️ ";
-}
-
 .newsletterImage {
   width: 95%;
   max-width: 538px;
+}
+
+.bgGreen {
+  background-color: rgba(35, 199, 181, 0.3);
+}
+
+.roundedCorner {
+  border-radius: 25px;
+}
+
+.emoji {
+  font-size: 100px;
+  display: block;
+}
+
+.gem::after {
+  content: "\1F48E";
+}
+
+.web::after {
+  content: "\1F578";
+}
+
+.seeding::after {
+  content: "\1F331";
+}
+
+.timer::after {
+  content: "\23F2";
+}
+
+.sparkles::after {
+  content: "\2728";
+}
+
+.monocle::after {
+  content: "\1F9D0";
+}
+
+/* button from Katherine Kato: https://codepen.io/kathykato/pen/gOOjgmP */
+
+.learnMore {
+  font-weight: 600;
+  color: #382b22;
+  text-transform: uppercase;
+  padding: 1.25em 2em;
+  background: var(--ifm-color-primary-lightest);
+  border: 2px solid var(--ifm-color-primary-darker);
+  border-radius: 0.75em;
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.learnMore::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--ifm-color-primary-dark);
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-darker), 0 0.625em 0 0 #382b22;
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.learnMore:hover {
+  background: var(--ifm-color-primary-lightest);
+  transform: translate(0, 0.25em);
+}
+
+.learnMore:hover::before {
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-darker), 0 0.5em 0 0 #382b22;
+  transform: translate3d(0, 0.5em, -1em);
+}
+
+.learnMore:active {
+  background: var(--ifm-color-primary-light);
+  transform: translate(0em, 0.75em);
+}
+
+.learnMore:active::before {
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-darker), 0 0 #382b22;
+  transform: translate3d(0, 0, -1em);
+}
+
+a.learnMore:hover{
+  color:#382b22;
 }
