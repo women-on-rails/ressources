@@ -57,10 +57,6 @@ const siteConfig = {
     },
 
     image: 'img/logo.png',
-  
-    blog: {
-      postsPerPage: 10,
-    },
 
     footer: {
       links: [
@@ -119,7 +115,6 @@ const siteConfig = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Women On Rails. Réalisé avec Docusaurus.`,
     },
-    sidebarCollapsible: true,
   },
 
   i18n: {
